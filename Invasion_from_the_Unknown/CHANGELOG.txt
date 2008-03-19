@@ -1,6 +1,26 @@
 Invasion from the Unknown / Armageddon Changelog
 ------------------------------------------------
 
+Version 1.0.10:
+- General:
+    * Added directory hierarchy for Python and Formula AI that might be written later
+    * Moved from localhost (greycore) non-versioned storage to SourceForge.net
+      (SVN)
+    * Ran wesnoth-pngcrush over inner root
+      > total saved: 3 KB, 3 files
+    * Removed translator entries from about.cfg as suggested by Ivanovic
+- Graphics:
+    * Updated place-holder portrait for Galas
+- Music and sound effects:
+    * Victory and defeat music also replace existing playlist with silence
+- Scenarios and gameplay:
+    * All hive spawn points are aware of the surface-variation flag
+    * Scenario 10 (The Source of Light) (fixes a couple of bugs reported by Soliton):
+        + Any unit can take the Berserker Potion
+        + Mal Keshar is respawned with his real maximum HP
+- Units:
+    * Removed units: Troll Shaman
+
 Version 1.0.2:
 - General:
     * Added BUGS.txt, which lists known bugs/by-design oddities and contains
