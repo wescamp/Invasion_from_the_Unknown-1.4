@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wescamp-i 18n\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2008-03-20 16:49+0100\n"
+"POT-Creation-Date: 2008-03-22 01:17+0100\n"
 "PO-Revision-Date: 2008-02-01 14:40+0100\n"
 "Last-Translator: Brivido <brivido(at)gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
@@ -417,7 +417,7 @@ msgstr ""
 #. message: role=a2
 #: Invasion_from_the_Unknown/scenarios/08a_Errand_of_Hope.cfg:407
 #: Invasion_from_the_Unknown/scenarios/08a_Errand_of_Hope.cfg:1236
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1779
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1797
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:355
 #: Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:225
 #: Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:239
@@ -1629,7 +1629,7 @@ msgstr "Ti meriti un blocco."
 #: Invasion_from_the_Unknown/scenarios/03_Horrors_from_the_Depths.cfg:518
 #: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1656
 #: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1677
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1698
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1707
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:691
 #: Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:357
 #: Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:383
@@ -6341,17 +6341,17 @@ msgstr ""
 "o non vivente."
 
 #. message: speaker=narrator
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1720
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1738
 msgid "Go'way!! We're like, closed or somethin'!!!"
 msgstr "Andate via!! Siamo chiusi, non c'è nessuno!!!"
 
 #. message: speaker=unit
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1724
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1742
 msgid "Um... okay."
 msgstr "Um... va bene."
 
 #. message: speaker=unit
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1740
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1758
 msgid ""
 "It is strange to find a house here, in the deep, but looks like someone "
 "inhabits it, for the good maintenance of the walls and door. The decoration "
@@ -6364,77 +6364,77 @@ msgstr ""
 "se ci abita qualcuno?"
 
 #. option: speaker=unit
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1742
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1760
 msgid "Shout and see."
 msgstr "Prova a chiamare."
 
 #. command
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1744
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1762
 msgid "Hellooooo! Anybody at home?"
 msgstr "Salveee! C'è nessuno?"
 
 #. command
 #. event
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1745
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1763
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:354
 #: Invasion_from_the_Unknown/scenarios/cutscenes/16x.cfg:146
 msgid "(silence)"
 msgstr "(silenzio)"
 
 #. command
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1746
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1764
 msgid "I said HELLO!!!"
 msgstr "Ho detto SALVE!!!"
 
 #. command
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1747
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1765
 msgid "(yet more silence)"
 msgstr "(ancora silenzio)"
 
 #. message: speaker=unit
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1750
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1768
 msgid "Should I insist another time, or abandon the cave?"
 msgstr "Devo ancora insistere o lasciare la caverna?"
 
 #. option: speaker=unit
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1752
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1770
 msgid "Insist again."
 msgstr "Prova ancora."
 
 #. command
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1754
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1772
 msgid "Very well, let me break in..."
 msgstr "Benissimo, permesso..."
 
 #. command
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1755
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1773
 msgid "BOOM!!! CRASH!!! CRACK! CLANG! CRASH!!! BAM!!"
 msgstr "BUM!!! CRASH!!! CRACK! CLANG! CRASH!!! BAM!!"
 
 #. command
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1756
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1774
 msgid "So, anybody at home now?"
 msgstr "E allora? C'è nessuno in casa, adesso?"
 
 #. unit: description=Igor, type=Wolf Rider
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1759
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1777
 msgid "Igor"
 msgstr "Igor"
 
 #. command
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1773
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1791
 msgid "Aww. Is it that I can't find a safe place'ta live in?"
 msgstr ""
 "Accidenti. Possibile che non riesca a trovare un posto tranquillo dove "
 "vivere?"
 
 #. command
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1774
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1792
 msgid "A goblin? How did you get here?"
 msgstr "Un goblin? Come hai fatto ad arrivare qua?"
 
 #. command
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1775
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1793
 msgid ""
 "It's a long story. I used to live in the northlands, in a small town with my "
 "fellows. However, it came'ta happen that the foul 'loyalists' invaded it, "
@@ -6452,7 +6452,7 @@ msgstr ""
 "possibile, cercando sicurezza e pace."
 
 #. command
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1776
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1794
 msgid ""
 "So I found these caverns, and set home here. However, da humans appeared "
 "again with their filthy cronies, and I managed to hide my cave from them. "
@@ -6463,7 +6463,7 @@ msgstr ""
 "la mia caverna. Adesso che voi l'avete rivelata, di cisuro morirò-"
 
 #. command
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1777
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1795
 msgid ""
 "I see. But perhaps you would prefer to follow us, instead of staying in "
 "these perilous pits, victim to the loyalists. We can give you protection."
@@ -6472,17 +6472,17 @@ msgstr ""
 "pozzi pericolosi, vittima dei lealisti. Ti possiamo proteggere."
 
 #. command
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1778
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1796
 msgid "Oh really? Wait, let me prepare my baggage and I shall go with you."
 msgstr "Davvero? Aspettate, lasciatemi preparare i bagagli e verrò con voi."
 
 #. option: speaker=unit
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1783
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1801
 msgid "Abandon."
 msgstr "Lascia perdere."
 
 #. option: speaker=unit
-#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1789
+#: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1807
 msgid "I think it would be safer to remain away from this cave."
 msgstr "Penso che sarebbe più sicuro rimanere lontani da questa caverna."
 
