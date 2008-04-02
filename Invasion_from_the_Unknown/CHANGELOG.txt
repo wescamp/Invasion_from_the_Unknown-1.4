@@ -1,18 +1,234 @@
-Invasion from the Unknown / Armageddon Changelog
+Invasion from the Unknown Changelog
 ------------------------------------------------
+
+Version 1.9.0:
+- AIs:
+    * Added formula/darkhive-drone.ai (untested and not to be used on 1.4)
+- General:
+    * Bump version from 1.0.14 to 1.9.0
+    * Made it easier to update version numbers in the future, though it makes the presence
+      of file tags/VERSION.tag mandatory
+    * Ran wmllint; the units/ directory is still begging for manual fixes. However, the
+      WML of the campaign overall should be now clean enough to allow for easy migration
+      to SVN trunk with wmllint
+    * Refactored item pick-up mechanism, making it easier to maintain, and easier
+      to use from the player's side; it is also guaranteed that all of them can be
+      used only once
+    * Removed unused macros:
+        + PLACE_IMAGE_WITH_HALO @ utils/items.cfg
+- Graphics:
+    * New or updated portraits:
+        + Elynia, place-holder (slight recoloring of LoW's new Cleodil portrait) <kitty>
+        + Lédinor, place-holder (LoW's new Velon portrait) <kitty>
+    * New or updated unit graphics:
+        + Demon - level 1 <Shadow Master>
+        + Dread Bat baseframe <megane>
+        + Strongbow <Shadow/wayfarer>
+- i18n and l10n:
+    * Added to SVN the translations directory
+    * Internationalized player team names in many scenarios
+    * Moved utils/mainline-strings.cfg to top-level and made it be included first in the
+      preprocessor chain
+- Maintenance toolchain:
+    * Moved from /branches/1.4/Invasion_from_the_Unknown/bin to /branches/maintenance-toolchain
+- Scenarios:
+    * Made it possible to play first 13 scenarios and/or last 13 scenarios independently:
+        + Playing Episode I allows player to select whether he or she desires to continue
+          playing with Episode II at the end
+        + Playing Episode II gives the player a default set of heroes
+    * Minor cosmetic improvements to existing maps
+    * Scenario 1 (Border Patrol):
+        + Balancing
+        + Standard user_team_name added
+    * Scenario 2 (A Real Confrontation):
+        + Enemies' gold reserves are increased whenever they drop below 30 at the beginning of
+          their turn
+        + Increased the amount of gold gained by enemies when they pillage villages
+        + Removed left-over time area
+        + Standard user_team_name added
+    * Scenario 3 (Memories from the Depths):
+        + Balancing
+        + Mal Keshar no longer has {TRAIT_FEARLESS}
+        + Renamed ("Horrors from the Depths")
+        + Standard user_team_name added
+    * Scenario 4 (Over the Sands)
+        + Balancing
+        + Dehydration enabled for lowest difficulty level
+        + Standard user_team_name added
+    * Scenario 5a (Crossfire)
+        + Balancing
+        + Fixed Ring of Regeneration's unit filter to allow humans (i.e. Dark Adepts)
+          to pick it up
+        + Reduced turn limit for balancing
+        + Standard user_team_name added
+    * Scenario 5b (Cursed Plateau)
+        + Added the missing scenario WML prestart commands, i.e. now player unit costs
+          get properly modified, and Dark Adepts are made recruitable
+        + Fixed Ring of Regeneration's unit filter to allow humans (i.e. Dark Adepts)
+          to pick it up
+        + Reduced turn limit for balancing
+        + Standard user_team_name added
+    * Scenario 6 (Moon Valley)
+        + Balancing
+        + Standard user_team_name added
+    * Scenario 7 (The Elf versus Goliath)
+        + Standard user_team_name added
+    * Scenario 8 (Errand of Hope)
+        + Death Knights can pick up the Magic Poisonous Bow too
+        + Reduced turn limit for balancing
+        + Standard user_team_name added
+    * Scenario 9 (The Library)
+        + Reduced turn limit for balancing
+        + Standard user_team_name added
+    * Scenario 10 (The Source of Light)
+        + Defined a turn limit for balancing
+        + Fixed (FOR REAL) a bug which caused Mal Keshar to search for the glyphs
+          continuously (reported by Sky)
+        + Standard user_team_name added
+    * Scenario 14 (Bye and Behold)
+        + Changed Erathan's level from L3 to L2
+        + Defined a turn limit for balancing
+    * Scenario 23-C (Broken Heart part 1):
+        + Lédinor no longer gets lost; i.e. he gets teleported to the
+          second half of the map with the party
+    * Scenario 23-C cutscene (Broken Heart part 2):
+        + Map borders get replaced with abyss tiles too
+- Units:
+    * Balancing:
+        + Decreased Dread Bat's HP from 43 to 33
+        + Increased required XP to advance for Blood Bat from 60 to 70
+        + Gave {ABILITY_REGENERATES} to Dread Bat
+        + Gave mandatory {TRAIT_FEARLESS} to Elvish Warrior Spirit line
+        + Set Elvish Warrior Spirit line movement type to 'undeadspirit'
+          > override resistances: arcane -20% (def. -10%)
+          > override defenses: cave 60% (def. 50%)
+        + Increased Elvish Warrior Spirit's HP from 19 to 20
+        + Increased Elvish Forefather's HP from 36 to 38
+        + Set Faerie Spirit movement type to 'undeadspirit'
+          > override resistances: fire 0% (def. 10%), arcane -20% (def. -10%)
+          > override defenses: cave 60% (def. 50%)
+        + Gave mandatory {TRAIT_SPIRIT} to Faerie Spirit
+    * Fixed many level-1 units not switching to ZoC ellipse after advancing from level 0
+    * Fixed many units which were using inexisting macro WEAPON_SPECIAL_DRAINS
+      instead of WEAPON_SPECIAL_DRAIN
+    * Made Door unit clean-up after custom death event handler
+    * Renamed the Kagthanii race to "Verlissh" (suggested by ESR, Aethaeryn)
+
+Version 1.0.13:
+- Graphics:
+    * wesnoth-optipng ran on root; saved 53 KB on 70 files
+- i18n and l10n:
+    * Added missing translations (spanish, turkish, italian, french)
+
+Version 1.0.12:
+- AIs:
+    * Decreased caution level for hostile nature players from 10% to 0%
+    * Shaxthal Wyrm can take on the Bird NPC behavior
+    * NPCs are killed to prevent going out of map bounds now triggering any
+      associated events; this should allow the respawn control algorithm to
+      respawn NPCs as desired
+- General:
+    * Mainline WML conventions / engine changes:
+        + Changed all usages of [terrain] letter= to use [terrain] terrain=, since the former
+          syntax will be deprecated in 1.5.x and makes little sense with the 1.3 terrain system
+- Graphics:
+    * Added graphics:
+        + 2 scenery tree variations by Meniou
+        + 2 new variations of scenery gibs
+        + Elvish Hunter - melee attack and defense animation frames (male, female)
+        + Elvish Hunter - ranged attack and defense animation frames (male, female)
+        + Generic camp
+        + Rain effect (previously removed)
+        + Shadow Courier
+        + Shadow Spawn
+        + Storyline "big warning" graphic (from Tango icon theme)
+    * Changed campaign menu entry's icon
+    * New campaign menu entry's splash screen (from kitty's story graphics)
+    * Updated unit graphics:
+        + Abomination
+        + Bone Knight
+        + Lady of Light
+        + Skeletal Rider
+        + Death Baron
+        + Loyalist Man at Arms (by Neoskel, for Blueblaze's secret RPG)
+    * Updated item graphics:
+        + Berries
+        + Bookshelves
+        + Touchplate
+    * Updated place-holder portraits:
+        + Elynia
+        + Erathon
+    * Updated terrain graphics:
+        + Dark Castle floor
+    * Updated storymap graphics
+- Scenarios and gameplay:
+    * Added a start-of-campaign warning message
+    * Replaced storymaps' player icon with a "generic" elven unit to avoid awkwardness
+      until variable substitution in Story WML can be done.
+    * Scenario 1 (Border Patrol):
+        + Balancing
+        + Minor visual improvements
+    * Scenario 2 (A Real Confrontation):
+        + Fixed a silent engine error, "audio: Tried to add duplicate track"
+    * Scenario 4 (Over the Sands):
+        + Fixed victory clean-up missing some variables
+    * Scenario 5a, 5b:
+        + Missing victory clean-up added to Scenario 6 as a prestart event
+    * Scenario 8a (Errand of Hope):
+        + Fixed typo which generated the 'unknown unit' error ('Troll Rcoklobber' should
+          be 'Troll Rocklobber')
+        + Fixed victory clean-up missing some variables
+    * Scenario 9 (The Library):
+        + Clarified objectives
+    * Scenario 10 (Source of Light):
+        + Fixed a bug which caused Mal Keshar to search for the glyphs continuously
+          (reported by Sky)
+    * Scenario 17 (Dawn of the Great War):
+        + Fixed victory clean-up missing some variables
+    * Scenario 20 (Under the Sands):
+        + The player now gets a bonus for finishing the scenario
+    * Scenario 22-A (Innuendo):
+        + Made AI significantly more aggressive towards the player
+        + Minor cosmetic improvements
+    * Scenario 22-B (Gauntlet):
+        + Added aggressive NPCs
+        + Elyssa respawns in a known location to avoid respawning in lava hexes
+    * Scenario 23-A (Interim):
+        + Added aggressive NPCs
+    * Scenario 23-B (Welcome to the Lair):
+        + Added aggressive NPCs
+        + Addressed a minor grammatical issue
+        + Fixed invalid reference to next scenario in cutscene
+    * Units killed by the Shadow Master now cannot be resurrected by Mal Keshar
+- Terrain WML:
+    * Clean-up of code as suggested by MadMax
+- Units:
+    * Added missing Obscure halo to Master of Darkness
+    * Balancing:
+        + Removed Dread Bat's feeding ability; and increased HP from 36 to 43
+        + Backported AMLA_DEFAULT fix to heal/unslow from mainline SVN trunk, for Elynia's AMLAs
+        + Increased cavewall defense for Shaxthal Wyrm from 40% to 50%
+        + Decreased Chaos Lore's "ethereal blast" from 11-4 to 9-4
+        + Decreased Chaos Lore's "infernal chill" from 17-2 to 13-2
+        + Changed Chaos Lore's melee attack from 8-1 to 7-2
+        + Changed default AMLA for Lady of Light and Sylvan Faerie from AMLA_DEFAULT to
+          AMLA_FULLHEAL_AND_ENHANCE_HP (just a cosmetic change to make AMLA icon consistent with
+          custom AMLAs, but it also backports a SVN trunk change for Wesnoth 1.4.x)
+    * New or refactored units: Shadow Spawn, Shadow Courier
+    * Optimized WML: alt. Dark Sorcerer, alt. Necromancer
 
 Version 1.0.11:
 - General:
-	* External archive packaging script gracefully handles svn checkouts now
-	  (update to version 0.3.0)
+    * External archive packaging script gracefully handles svn checkouts now
+      (update to version 0.3.0)
 - Graphics:
     * Removed alternate signpost (no longer required since it was commited to
       mainline trunk and branches/1.4
     * Updated baseframes by Neoskel and Megane:
-    	+ Chaos Invader line except Overlord
+        + Chaos Invader line except Overlord
 - Scenarios and gameplay:
-	* Scenario 10 (The Source of Light):
-		+ Make usage of southern touch-plates less confusing
+    * Scenario 10 (The Source of Light):
+        + Make usage of southern touch-plates less confusing
 
 Version 1.0.10:
 - General:
