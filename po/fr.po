@@ -6,27 +6,28 @@ msgstr ""
 "Project-Id-Version: fr_0.6.71\n"
 "Report-Msgid-Bugs-To: http://bugs.wesnoth.org/\n"
 "POT-Creation-Date: 2008-05-01 16:44+0200\n"
-"PO-Revision-Date: 2008-04-30 18:36+0100\n"
+"PO-Revision-Date: 2008-05-02 00:12+0100\n"
 "Last-Translator: Damien J <guydelatourATgloireetpouvoirPTcom>\n"
-"Language-Team: Wesnoth <fr@li.org>\n"
+"Language-Team: Équipe de traduction française <wesnoth@ml.free.fr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
-# Abv : Invasion de l'Inconnu
+# Abv pour "L'Obscure Invasion"
 #: Invasion_from_the_Unknown/_main.cfg:53
 msgid "IftU"
 msgstr "IdI"
 
+# Damien, remarques générales : j'ai essayé, quand le contexte ne permettait pas de savoir qui parle, d'éviter les masculin et les féminin ; de même, j'ai privilégié les vouvoiements (ou donc les pluriels).
 #. [message]: speaker=narrator
 #. [scenario]
 #: Invasion_from_the_Unknown/scenarios/13x_Inter.cfg:6
 #: Invasion_from_the_Unknown/scenarios/13x_Inter.cfg:103
 #: Invasion_from_the_Unknown/_main.cfg:54
 msgid "Invasion from the Unknown"
-msgstr "Invasion de l'inconnu"
+msgstr "L'Obscure Invasion"
 
 #: Invasion_from_the_Unknown/_main.cfg:58
 msgid "(Expert level, 13 scenarios.)"
@@ -381,13 +382,7 @@ msgstr ""
 "Sylvain lumineux :\n"
 "Cette unité illumine les terrains adjacents, rendant les loyaux meilleurs "
 "combattants et les chaotiques plus mauvais. Toute unité proche de celle ci "
-"combattra la nuit comme au crépuscule et au crépuscule comme la nuit.\n"
-"\n"
-"Cette unité peut également soigner et guérir les unités amies sur les "
-"terrains adjacents chaque tour sur une base maximum de 8 PV. En terrain "
-"boisé ils sera invisible de ses ennemis. Il peut également se régénérer, "
-"mais pas guérir du poison, de 4 PV par tour, mais seulement en forêt ou "
-"forêt de champignons."
+"combattra la nuit comme au crépuscule et au crépuscule comme la nuit."
 
 #. [illuminates]
 #: Invasion_from_the_Unknown/macros/abilities.cfg:363
@@ -958,7 +953,7 @@ msgstr ""
 "cette campagne, plutôt que déboguer et tester, je vous conseille de "
 "retourner au scénario précédent et de choisir une branche complétée. Le "
 "suivi est sur le site www.wesnoth.org, dans le forum avec pour sujet "
-"'Invasion from the Unknown' (forum sur le développement de scénarios et de "
+"« Invasion from the Unknown » (forum sur le développement de scénarios et de "
 "campagnes)\n"
 "\n"
 "-- L'auteur"
@@ -994,7 +989,7 @@ msgstr "À l'intérieur"
 #: Invasion_from_the_Unknown/macros/schedules.cfg:58
 #: Invasion_from_the_Unknown/macros/schedules.cfg:68
 msgid "Dark Hive"
-msgstr "Essaim des ténèbres"
+msgstr "Ruche des ténèbres"
 
 #. [time]
 #: Invasion_from_the_Unknown/macros/schedules.cfg:76
@@ -1185,6 +1180,7 @@ msgstr ""
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:36
+#, fuzzy
 msgid ""
 "I am here to tell you a history, a history of what became long after the "
 "Fall. Of how evil possessed the devastated Great Continent and came near "
@@ -1195,6 +1191,15 @@ msgid ""
 "Great Continent, who had to abandon their old habits for a new era, and "
 "found themselves forced to tolerate necromancy for the sake of a new future."
 msgstr ""
+"Je suis ici pour vous raconter l'histoire des évènements qui sont survenus "
+"longtemps après la Chute, sur la façon dont les forces du mal ont dévasté le "
+"Grand Continent et ont quasiment fait sombrer le monde entier dans des "
+"abysses de souffrances et de punitions. Et sur la façon dont un petit groupe "
+"hétérogène a réussi à surmonter cet énorme chaos. Vous apprendrez que les "
+"elfes de Quenoth ne furent pas les seuls à survivre aux guerres elfiques ; "
+"c'est l'histoire des derniers elfes du Grand Continent qui durent abandonner "
+"leurs anciennes habitudes et furent forcés à apprendre la nécromancie pour "
+"préserver leur avenir."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:39
@@ -1215,12 +1220,17 @@ msgstr ""
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:42
+#, fuzzy
 msgid ""
 "To tell you about it, I'll refer to the most authentic records of the time, "
 "records that I obtained only with great difficulty. Hear now the journal of "
 "master Galas, the leader of the elves' militia. I shall read its first part. "
 "Listen..."
 msgstr ""
+"Pour tout vous dire, je vais faire référence aux récits les plus "
+"authentiques d'alors. J'ai obtenus ces textes avec de grandes difficultés. "
+"Voici le journal de maître Galas, chef de cette milice elfe. Je vais vous en "
+"lire la première partie. Écoutez..."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:48
@@ -1237,16 +1247,15 @@ msgid ""
 "myself."
 msgstr ""
 "``Au fil du temps, il est devenu de plus en plus dur de protéger notre "
-"vallée. Les attaques ponctuelles de nécromanciens et des bandes de fugitifs "
-"sont devenu plus qu'un simple désagrément. Nous n'avons perdu ni les style "
-"d'escrime ni celui de l'archerie issus de nos ancêtres, aussi, en "
-"représailles, nos chefs ont commencé à envoyer des patrouilles en missions. "
-"Des combattants qui rôdent chaque jour aux frontières de la vallée.Je n'ai "
-"jamais connu ma mère. Les anciens disent qu'elle est morte en couches. Mon "
-"père a conduit nos combattants à la bataille depuis que j'étais petit "
-"garçon. Aussi ne fût ce pas une surprise, même petite, pour mes amis lorsque "
-"j'ai mis mes pas dans les siens et que je suis devenu moi-même chef de "
-"patrouille."
+"vallée. Les attaques occasionnelles des nécromanciens et des bandes de "
+"fugitifs sont devenues plus qu'une simple nuisance. Nous n'avons rien perdu "
+"des talents d'escrimeurs et d'archers de nos ancêtres, aussi, en "
+"représailles, nos chefs ont commencé à envoyer des patrouilles composées de "
+"guerriers qui surveillent chaque jour les frontières de la vallée. Je n'ai "
+"jamais connu ma mère ; les anciens disent qu'elle est morte en couches. Mon "
+"père conduit nos combattants au combat depuis mon plus jeune âge, et même "
+"mes amis ne furent pas surpris quand j'ai suivi ses traces et suis devenu "
+"moi-même chef de patrouille."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:51
@@ -1269,17 +1278,17 @@ msgstr ""
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:54
-#, fuzzy
 msgid ""
 "I grew up patrolling the frontiers every week. Anlindë, a sorceress, has "
 "taken care of me like her own son since before I can remember. She has been "
 "to me the mother I never had, often spending far too much time caring for me "
 "rather than her own duties."
 msgstr ""
-"J'ai grandi, patrouillant les frontières semaine après semaine. Une "
-"sorcière, Analia, prit soin de moi comme de son propre fils aussi loin que "
-"je me souvienne. Elle a été, pour moi, la mère que je n'ai jamais eu, "
-"passant souvent plus de temps à se soucier de moi que de ses propres charges."
+"J'ai grandi, patrouillant sur les frontières, semaine après semaine. Une "
+"sorcière, Anlindë, prit soin de moi comme de son propre fils pour autant que "
+"je me souvienne. Elle a été pour moi la mère que je n'ai jamais eue, passant "
+"souvent plus de temps à se soucier de moi que à s'occuper de ses problèmes à "
+"elles."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:57
@@ -1322,11 +1331,10 @@ msgid ""
 "That worried me initially, and I would have organized a scouting party to "
 "the desert if we were in any condition to doing so."
 msgstr ""
-"Succès complet, mais la manière de combattre de ces humains était plus "
-"professionnelle, coordonnée et précise que celle des habituels nomades. Ce "
-"qui m'a inquiété initialement et j'aurai bien organisé une reconnaissance "
-"dans le désert si nous avions été en position de le faire. Une bien étrange "
-"situation."
+"Le succès fut complet, mais la manière de combattre de ces humains était "
+"plus professionnelle, coordonnée et précise que celle des nomades habituels. "
+"Ce qui m'a d'abord inquiété, et j'aurai bien organisé une reconnaissance si "
+"nous avions pu le faire. C'était très étrange."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:73
@@ -1340,14 +1348,14 @@ msgid ""
 msgstr ""
 "Notre groupe a été très affaibli par cette bataille, nous nous sommes donc "
 "retirés dans le donjon principal de la vallée. Une autre patrouille s'est "
-"occupé de notre travail en attendant et était programmé pour revenir trois "
-"jours plus tard. Cependant, cela ne suivit pas le bonne voie. Au lieu de "
-"cela, quelque chose d'autre est venu, les crânes de nos familles dans leurs "
-"bannières. Ce qui leur était arrivé était évident. Je ne suis pas sûr qu'il "
-"me faille remercier ou regretter d'être toujours vivant, protégé comme je "
-"l'étais par la forêt et les collines, à l'abri dans le château. Si j'avais "
-"été à leur place, aurais-je survécu ? Probablement pas, mais alors, cela "
-"aurait-il aidé d'une façon quelconque ce qui devait arriver par la suite ?"
+"occupé de notre travail en attendant, et il était prévu qu'elle revienne "
+"trois jours plus tard. Cependant, cela ne se passa pas ainsi : quelque chose "
+"d'autre est venu, arborant les crânes de nos semblables sur leurs étendards. "
+"Ce qui leur était arrivé était évident. Je ne sais pas s'il me faut "
+"remercier ou regretter d'être toujours vivant, protégé dans la vallée par la "
+"forêt, et par les collines dans le château. Si j'avais été à leur place, "
+"aurais-je survécu ? Probablement pas, mais est-ce que cela aurait changé ce "
+"qui arriva ensuite ?"
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:82
@@ -1400,9 +1408,9 @@ msgid ""
 "necromancers before, but this one... this one was different."
 msgstr ""
 "Même mort depuis des milliers d'années, le nécromancien avait toujours des "
-"traces de chair sur son corps et des traces de cheveux sur sa tête. Nous les "
-"elfes avions combattu des nécromanciens auparavant, mais celui-ci ... celui-"
-"ci était différent."
+"fragments de chair sur son corps et des touffes de cheveux sur sa tête. "
+"Nous, les elfes, avions combattu des nécromanciens auparavant, mais celui-"
+"ci... était différent."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:100
@@ -1461,6 +1469,7 @@ msgstr ""
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:121
+#, fuzzy
 msgid ""
 "Often Mal Keshar would look at the stream in a nostalgic way. I wondered "
 "what he thought as he watched the murky water flow down the riverbank. The "
@@ -1469,33 +1478,57 @@ msgid ""
 "does. I do not know much about history or old legends, so I canot judge the "
 "truth."
 msgstr ""
+"Souvent Mal Keshar regardait le courant d'un air nostalgique. Je me "
+"demandais à quoi il pensait en regardant l'eau limoneuse s'écouler sur les "
+"rives. C'était comme si nous avions dépassé son ancienne demeure et n'avions "
+"pas fait attention à cela. Le monde a beaucoup changé depuis ce qu'on "
+"appelait l'Âge d'Or, et il en parle peu. Il en veut aux humains, tout comme "
+"Anlindë. Je ne connais pas bien l'histoire et les légendes, je ne peux donc "
+"pas vraiment juger leur opinion à leur sujet."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:124
+#, fuzzy
 msgid ""
 "Their resentment has had bloody consequences. We came upon another small "
 "human encampment, in a more fertile stretch of the river vally. Our leaders "
 "commanded our men to slay them all. Perhaps I should have acted, but I felt "
 "paralyzed."
 msgstr ""
+"Cette attitude avait parfois un impact sur leurs décision. Nous arrivâmes un "
+"jour en bordure d'un petit campement humain, sur un bras plus fertile de la "
+"rivière. Ils ordonnèrent à nos soldats de tous les tuer. Encore une fois, ma "
+"faiblesse paru évidente, et mes gens leur obéirent alors que je restais sous "
+"ma tente, silencieux, en train d'observer la bataille."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:127
+#, fuzzy
 msgid ""
 "Having skeletons, corpses and ghosts fighting by our side was dreadful "
 "enough to make most of our opponents flee, terrified. But some men did not "
 "flee. Instead they joined our side out of fear, curiosity, or attraction to "
 "the forbidden magic."
 msgstr ""
+"Pourtant, les squelettes, les zombies, et les fantômes à nos côtés furent "
+"suffisamment terrifiants pour faire fuir la plupart de nos opposants "
+"terrorisés, se réfugiant dans les sables du désert. Mais quelques hommes ne "
+"flanchèrent pas et nous rallièrent, par peur, par curiosité, par intérêt "
+"envers la magie noire."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:131
+#, fuzzy
 msgid ""
 "There came a night when we made camp by the river, to rest and replenish our "
 "water supplies. Fortunately for us, the river's water there was pure enough "
 "to be apt for drinking. Perhaps not as cool and fresh as the water in our "
 "valley's lake, but it served its purpose well enough."
 msgstr ""
+"Nous avons fini par établir un camp nocturne sur un bord de la rivière, pour "
+"nous reposer et nous remplir nos réserves d'eau. Heureusement, l'eau était "
+"assez pure pour être potable. Elle ne l'était pas autant que celle du lac de "
+"notre vallée, mais fut quand même d'un grand secours."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:142
@@ -1513,6 +1546,11 @@ msgid ""
 "were not any elves left afterwards, that no one else would dare enter their "
 "domains."
 msgstr ""
+"La seule explication possible était qu'il avait réduit en cendres notre "
+"vallée, ne laissant que rochers, poussières et saleté en lieu et place de la "
+"demeure qui nous avait abrité. Ils nous auraient probablement tous tués. Ils "
+"pensaient qu'il ne restait plus d'elfe après ça, et que plus personnes "
+"n'oserait pénétrer dans leur domaine."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:148
@@ -1549,10 +1587,11 @@ msgid ""
 "seemed to be uninhabited, but later we were to meet the owners in a battle "
 "we did not seek."
 msgstr ""
-"Nous avons marché durant trois jours à partir de la rivière Longlier dans "
-"une large vallée. Cette vallée ressemblait un peu à notre patrie, sauf "
+"Nous avons marché durant trois jours, partant de la rivière Longlier pour "
+"arriver dans une large vallée. Elle ressemblait un peu à notre patrie, sauf "
 "qu'elle était légèrement plus petite et que la végétation y était plus "
-"clairsemée."
+"clairsemée. Elle ressemblait à une terre vierge, mais nous rencontrâmes "
+"ensuite ses vrais habitants dans une bataille vraiment désagréable."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:177
@@ -1597,7 +1636,7 @@ msgid ""
 msgstr ""
 "Les murs de la caverne semblaient étrange et artificiels, le plancher était "
 "couvert de carreaux étranges probablement fabriqués par une antique "
-"civilisation qui vivait là auparavant... s'elle n'y vivait pas encore. Quoi "
+"civilisation qui vivait là auparavant... si elle n'y vivait pas encore. Quoi "
 "qu'il en soit, je remarquais qu'Analia et Mal Keshar avaient un mauvais "
 "pressentiment. Je n'ai aucune expérience des arts magiques, aussi je ne puis "
 "préciser ce qu'ils avaient exactement senti ou détecté."
@@ -1666,7 +1705,7 @@ msgid ""
 msgstr ""
 "Ce nain, Althurin, nous conduisit à travers des galeries venteuses qui "
 "aboutissaient, d'une façon inattendue, à un passage beaucoup plus large ; et "
-"vers une ville, la capitale de leur royaume."
+"vers une ville, capitale de leur royaume."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:224
@@ -1732,6 +1771,9 @@ msgid ""
 "darkness, possibly because of the abominations it gives protection to. But "
 "the real reason has not been stated clearly anywhere as far as I know."
 msgstr ""
+"Depuis les origines, les elfes des forêts ont redouté les ténèbres, "
+"probablement à cause des horreurs qu'elle protège. Mais la vraie raison n'a "
+"jamais été élucidée pour autant que j'en sache."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:257
@@ -1787,6 +1829,8 @@ msgid ""
 "And so I had to bid farewell to Anlindë, the closest person to a mother I "
 "ever had."
 msgstr ""
+"Je devais également aller saluer Anlindë, qui était pour moi comme une "
+"seconde mère."
 
 #. [part]
 #: Invasion_from_the_Unknown/macros/storytxt.cfg:287
@@ -2711,6 +2755,8 @@ msgid ""
 "Do you want to see a brief description of characters the first time you "
 "select them in the map?"
 msgstr ""
+"Voulez-vous une rapide description des personnages la première fois que vous "
+"les sélectionnez sur la carte ?"
 
 #. [message]
 #: Invasion_from_the_Unknown/scenarios/01_Border_Patrol.cfg:196
@@ -2769,6 +2815,10 @@ msgid ""
 "latter is available in this campaign only, and does not have a third level "
 "advancement. Choose his development path wisely and carefully."
 msgstr ""
+"Galas est un guerrier elfe. À partir du niveau 1, il peut progresser en "
+"capitaine, héros ou garde. Cette dernière promotion n'existe que dans cette "
+"campagne et n'a pas de niveau 3. Choisissez bien et de façon avisée votre "
+"progression."
 
 #. [scenario]: (description=Lédinor) 2.5}, (description=Galas) 2}, (description=Anlindë) 1.5}, (description=Lédinor) 4}, (description=Galas) 3}, (description=Anlindë) 2}, (description=Lédinor) 6}, (description=Galas) 5}, (description=Anlindë) 4}
 #: Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:5
@@ -2880,10 +2930,13 @@ msgstr "Anlindë"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:250
+#, fuzzy
 msgid ""
 "The patrol group that was sent to replace yours on the southern zone should "
 "have arrived this morning. I begin to worry about them."
 msgstr ""
+"La patrouille qui a été envoyée pour remplacer la vôtre dans la zone sud "
+"aurait dû arriver ce matin. Ça commence à m'inquiéter."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:251
@@ -3037,10 +3090,13 @@ msgstr ""
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:393
+#, fuzzy
 msgid ""
 "Probably they are regrouping for a more concerted assault, now that they "
 "know we will not be easily defeated."
 msgstr ""
+"Ils se regroupent probablement pour un assaut plus massif, maintenant qu'ils "
+"connaissent nos capacités défensives."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:394
@@ -3232,7 +3288,7 @@ msgid ""
 "young. Lead our people in my place!"
 msgstr ""
 "Je tombe en ce jour. Mais, jeune Galas, tu es toujours un guerrier de "
-"valeur. Dirige notre peuple à ma place, s'il te plaît !"
+"valeur. Dirige notre peuple à ma place, s'il te plaît !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/02_A_Real_Confrontation.cfg:452
@@ -3303,10 +3359,9 @@ msgid ""
 "in, she collapsed the cave entrance with a spell. Her hope was that this "
 "would buy them time to find a northward exit."
 msgstr ""
-"Après que les survivants eurent pénétré dans la caverne, Galas et Analia "
-"firent de même, elle invoqua l'entrée de la caverne afin de la sceller d'un "
-"sort magique. Ils seraient assez longtemps en sécurité pour aller loin et "
-"trouver une issue, avec de la chance."
+"Galas et Anlindë entrèrent dans la caverne après les survivants. Anlindë fit "
+"s'effondrer l'entrée avec un sortilège. Elle espérait qu'ils seraient assez "
+"longtemps en sécurité pour aller s'éloigner et trouver une issue."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:198
@@ -3372,7 +3427,7 @@ msgid ""
 "ruins by now. It saddens me, but we must live with it."
 msgstr ""
 "Rien que vous ne puissiez connaître, gamin ! Ne t'avise plus jamais de me "
-"questionner la dessus; parfois la vérité ne doit être révélée qu'en cas "
+"questionner la dessus ; parfois la vérité ne doit être révélée qu'en cas "
 "d'extrême nécessité, et ce n'est pas le cas. Maintenant je te suggère de "
 "trouver une sortie avant qu'ils ne découvrent un moyen d'ouvrir l'entrée de "
 "nouveau. Rien ne vaut de regarder en arrière, notre vallée est probablement "
@@ -3385,7 +3440,7 @@ msgid ""
 "I suppose so... Let us find an exit. If we but can...this cave system has "
 "never been explored before."
 msgstr ""
-"Je suppose... Trouvons une sortie. Si nous pouvons.... ce reseau de galeries "
+"Je suppose... Trouvons une sortie. Si nous pouvons.... ce réseau de galeries "
 "n'a jamais été exploré auparavant."
 
 #. [event]
@@ -3541,9 +3596,9 @@ msgid ""
 "longer go to the surface now that the land is under the control of the "
 "forces of Evil."
 msgstr ""
-"Exact, et je parie que ma soif d'orcs morts ne sera jamais étanchée. Car je "
-"ne peux aller à la surface maintenant, puisque la terre est sous le contrôle "
-"des forces du mal."
+"Exact, et je parie que ma soif d'orcs à massacrer ne sera jamais étanchée. "
+"Car je ne peux aller à la surface maintenant, puisque la terre est sous le "
+"contrôle des forces du mal."
 
 #. [event]
 #. [event]: (description=Mal Keshar)}
@@ -3663,13 +3718,16 @@ msgid ""
 "to my un-death. I have nothing left; all that I once loved has been scoured "
 "away by pitiless time."
 msgstr ""
+"J'ai des doutes. Des siècles sont passés depuis mon combat. Mais je ne "
+"redoute pas la fin de ma non-vie. Il ne me reste rien ; tout ce que j'ai "
+"aimé autrefois a été emporté par le temps inexorable."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:367
 msgid "We'll find a new and safe home, save we vanquish those fiends."
 msgstr ""
-"Nous trouverons une nouvelle demeure plus sûre, à moins que nous ne "
-"vainquions ces démons."
+"Nous trouverons une nouvelle demeure plus sûre, à moins de vaincre ces "
+"démons."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:368
@@ -3708,11 +3766,11 @@ msgid ""
 "victory was nothing else than the power of the Union, at hands of the Master "
 "of Darkness and the Lady of Light - a human and an elven lady."
 msgstr ""
-"Vos plus anciens druides et vos sorcières savent très bien que ce n'était "
-"pas Eloh, la toute puissante, elle même qui vous avait sauvé du mal, du "
-"moins pas la forme divine dont on parle dans vos vielles légendes. Ce "
-"n'était rien d'autre que le pouvoir de l'Union dans les mains du Maître des "
-"Ténèbres et de la Madone de Lumière, un humain et une femme elfe."
+"Vos plus anciens druides et vos plus anciennes sorcières savent très bien "
+"que ce n'était pas Eloh, la toute puissante, qui vous a sauvés de cet enfer, "
+"du moins pas sous la forme divine dont on parle dans vos vielles légendes. "
+"Ce n'était que le pouvoir de l'Union dans les mains du Maître des Ténèbres "
+"et de la Madone de Lumière, un humain et une dame elfe."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:372
@@ -3752,7 +3810,7 @@ msgstr ""
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:375
 msgid "But we don't know how or where she is."
-msgstr "Mais nous ne savons ni comment ni où elle est."
+msgstr "Mais nous ignorons son état de santé et là où elle est."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:376
@@ -3776,10 +3834,10 @@ msgid ""
 "one left capable of locating our saviors. After all, weren't you fighting "
 "for a noble cause, Malin Keshar?"
 msgstr ""
-"Les temps ont changé et ainsi que nos besoins et nos méthodes. Aujourd'hui "
-"je ne vois pas d'autre moyen de survivre sans l'aide d'un nécromancien et il "
-"semble être le seul capable de trouver nos sauveurs. Après tout ne "
-"combattiez vous pas pour une noble cause Malin Keshar ?"
+"Les temps ont changé, tout comme nos besoins et nos méthodes. Aujourd'hui je "
+"ne vois pas d'autre moyen de survivre sans l'aide d'un nécromancien et il "
+"semble être le seul capable de trouver nos sauveurs. Après tout, ne "
+"combattiez-vous pas pour une noble cause Malin Keshar ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:389
@@ -3796,7 +3854,7 @@ msgstr ""
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:390
 msgid "Will you fight for our cause, then?"
-msgstr "Alors, combattrez vous pour notre cause ?"
+msgstr "Alors, combattrez-vous pour notre cause ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:391
@@ -3810,13 +3868,11 @@ msgstr "C'est fou !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:393
-#, fuzzy
 msgid ""
 "Keep your mouth shut. This is the decision of a high sorceress, we must "
 "respect it."
 msgstr ""
-"Tais-toi. Quelque soit la décision de la Haute Sorcière, nous devons la "
-"respecter."
+"Silence. Nous devons la respecter toute décision d'une haute sorcière, ."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:394
@@ -3825,8 +3881,8 @@ msgid ""
 "words without blood since I arrived here. I place myself and my powers to "
 "your service, elves."
 msgstr ""
-"Merci pour votre amabilité. Vous êtes les premièrs avec lesquels je dialogue "
-"amicalement depuis mon arrivée ici. Ma puissance et moi-même sommes à votre "
+"Merci pour votre amabilité. Vous êtes les premiers avec lesquels je dialogue "
+"amicalement depuis mon arrivée ici. Mes pouvoirs et moi sommes à votre "
 "service, elfes."
 
 #. [event]
@@ -3841,7 +3897,6 @@ msgstr "Où devons-nous aller ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:402
-#, fuzzy
 msgid ""
 "We must head West. North-east from the former home of the Wesmere Elves are "
 "the mountains where your saviors went to - the caves of Knalga, an ancient, "
@@ -3850,12 +3905,12 @@ msgid ""
 "those damned creatures. I'd rather avoid it while we gather the necessary "
 "power to fight against them."
 msgstr ""
-"Nous devons aller à l'ouest. Au nord-est de l'ancien territoire des elfes de "
-"Wesmere sont les montagnes où vos sauveurs sont allés, les cavernes de "
-"Knalga, un royaume antique, déchu. Bien qu'aller à l'endroit où la forêt de "
-"Wesmere se trouvait devrait nous mener là bas plus rapidement, c'est "
-"actuellement infesté par ces damnées créatures, donc Je préférerais l'éviter "
-"tant que nous chercherons la puissance nécessaire pour se battre contre eux."
+"Nous devons aller à l'ouest. Vos sauveurs sont allés au nord-est de l'ancien "
+"territoire des elfes de Wesmere, dans les montagnes de Knalga, un antique "
+"royaume souterrain, déchu maintenant. Traverser l'ancienne forêt de Wesmere "
+"devrait nous mener là-bas plus rapidement, mais elle est actuellement "
+"infesté par ces maudites créatures. Je préférerais l'éviter en attendant de "
+"réunir la puissance nécessaire pour les affronter."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:403
@@ -3884,7 +3939,7 @@ msgstr "On triche, hein ?"
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:454
 msgid "Deserves a lock."
-msgstr "Mérite une serrure"
+msgstr "Ça mérite un blocage."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:485
@@ -3918,7 +3973,7 @@ msgstr ""
 #. [message]: speaker=unit
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:600
 msgid "Dang, this chest is empty!"
-msgstr "Clong, ce coffre est vide !"
+msgstr "Zut, ce coffre est vide !"
 
 #. [scenario]
 #: Invasion_from_the_Unknown/scenarios/03_Memories_from_the_Depths.cfg:681
@@ -4096,7 +4151,7 @@ msgstr ""
 msgid ""
 "If I remember correctly, we are approaching to Longlier, the River of Bones."
 msgstr ""
-"Si mes souvenirs son bons, nous approchons de Longlier, la Rivière d'os."
+"Si mes souvenirs son bons, nous approchons de Longlier, la Rivière des Os."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:491
@@ -4117,11 +4172,14 @@ msgstr ""
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:493
+#, fuzzy
 msgid ""
 "Over time, supporting our people will be more difficult, specially here in "
 "the desert. Breeding horses for mounts is already impossible for want of "
 "fodder."
 msgstr ""
+"Soutenir notre peuple sera plus difficile au cours du temps, surtout ici "
+"dans le désert. Alimenter les chevaux de monte s'avère déjà trop coûteux."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:494
@@ -4208,7 +4266,7 @@ msgid ""
 "If you want to come to our village to replenish your supplies, you'll have "
 "to pay us a small fee."
 msgstr ""
-"Si vous voulez venir dans notre village pour vous refournir en provisions, "
+"Si vous voulez venir dans notre village pour vous fournir en provisions, "
 "vous devrez nous payer une somme modique."
 
 #. [event]
@@ -4255,7 +4313,7 @@ msgid ""
 "Thanks for the tip. But, why don't you abandon this oasis then? There are "
 "others further to the north and east."
 msgstr ""
-"Merci pour le conseil. Mais pourquoi n'abandonnez-vous pas l'oasis, alors ? "
+"Merci pour le conseil. Mais pourquoi n'abandonnez-vous pas l'oasis, alors ? "
 "Il y en a d'autre, plus au nord et à l'est."
 
 #. [then]
@@ -4350,6 +4408,9 @@ msgid ""
 "now lost in this vast desert! How can you expect us to have enough gold to "
 "give you?"
 msgstr ""
+"Oh, je vous en prie. Ayez pitié de nous ! Nous avons été obligé d'abandonner "
+"nos demeures et nous sommes égarés dans ce vaste désert ! Comment pouvez-"
+"vous supposer que nous avons assez d'or à vous donner ?"
 
 #. [command]
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:641
@@ -4359,8 +4420,9 @@ msgid ""
 "a second time! And no pillaging our village. Know that if you do so, you'll "
 "encounter only trouble."
 msgstr ""
-"Vous êtes donc bienvenus. C'est à dire, tant que vous ne pillez pas notre "
-"village. Sachez qu'en le faisant, vous n'auriez que des problèmes."
+"Hmm... C'est bon. Vous pouvez y aller cette fois-ci. Mais ne vous attendez "
+"pas à une faveur une deuxième fois ! Et vous feriez mieux de ne pas piller "
+"nos villages. Si vous commencez, vous n'aurez que des problèmes."
 
 #. [message]: speaker=unit
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:682
@@ -4495,7 +4557,7 @@ msgstr "Glen"
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:943
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:944
 msgid "Outlaw ambusher"
-msgstr "Proscrit embusqué"
+msgstr "Hors-la-loi embusqué"
 
 #. [message]: role=filthy
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:962
@@ -4522,13 +4584,13 @@ msgid ""
 "I did too, but it seems these pointy-eared demons are impossible to get rid "
 "of."
 msgstr ""
-"Je l'ai fait aussi, mais il semble qu'il soit impossible de se débarrasser "
-"de ces démons aux oreilles pointues."
+"Moi aussi, mais il semble impossible de se débarrasser de ces démons aux "
+"oreilles pointues."
 
 #. [message]: role=filthy
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1016
 msgid "It matters little now. Kill it!"
-msgstr "Ça importe un peu maintenant. Tuez le !"
+msgstr "Ça importe peu maintenant. Tuez-le !"
 
 #. [message]: role=filthy
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1043
@@ -4557,7 +4619,7 @@ msgstr "Vaincre le chef des bandits qui contrôlent la zone nord-ouest"
 #. [message]: speaker=unit
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1085
 msgid "Ouch! Puny weakling, you won't beat meee..."
-msgstr "Aie ! Chétif faiblard, vous ne me battrez paaaaaaaaa....."
+msgstr "Aie ! Chétif faiblard, vous ne me battrez paaaaaaaaas....."
 
 #. [message]: speaker=second_unit
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1090
@@ -4570,8 +4632,8 @@ msgid ""
 "These bandits seem to have accumulated some gold. It's not a great amount, "
 "but it will do for our needs."
 msgstr ""
-"Ces bandit semblent avoir une réserve d'or. Ce n'est pas grand chose mais ce "
-"sera bon pour nous."
+"Ces bandit avaient une réserve d'or. Ce n'est pas grand chose mais ce sera "
+"bon pour nous."
 
 #. [objectives]
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1104
@@ -4660,7 +4722,7 @@ msgid ""
 "is this, Mal Keshar?"
 msgstr ""
 "Mais, mais, c'est un guerrier elfe ! Tellement pâle et... presque "
-"translucide. Qu'est-ce, Mal Keshar ?"
+"translucide. Qu'est-ce que c'est, Mal Keshar ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1244
@@ -4671,9 +4733,9 @@ msgid ""
 "by himself, he has been waiting for the oportunity to fight for you once "
 "again; he just needed a little help from an expert like me."
 msgstr ""
-"Ceci, mon « ami », est l'un de vos parents. Contrairement à la plupart de mes "
-"mignons, cet esprit elfe ne se bat pas à contrecœur ; il vous a suivi tout "
-"le temps et, n'ayant pas le pouvoir de se matérialiser tout seul, il a "
+"Ceci, mon « ami », est l'un de vos parents. Contrairement à la plupart de "
+"mes mignons, cet esprit elfe ne se bat pas à contrecœur ; il vous a suivi "
+"tout le temps et, n'ayant pas le pouvoir de se matérialiser tout seul, il a "
 "attendu l'opportunité de se battre pour vous une nouvelle fois ; il a juste "
 "eu besoin de l'aide d'un expert comme moi."
 
@@ -4724,12 +4786,15 @@ msgid ""
 "over the ground, yet the height of the surrounding peaks does not allow "
 "sunlight to illuminate it most of the time."
 msgstr ""
+"Si ma mémoire est bonne, ce chemin conduit à une vieille passe dans les "
+"montagnes, qui monte très haut, à tel point que la hauteur des pics voisins "
+"ne permet pas souvent au soleil d'éclairer le sol."
 
 #. [message]: speaker=Galas
 #: Invasion_from_the_Unknown/scenarios/04_Over_the_Sands.cfg:1291
 msgid "Yes, but remember what the outlaw told us about these mountains."
 msgstr ""
-"Oui, mais je me rappelle de ce que nous a dit le hors-la-loi sur ces "
+"Oui, mais rappelez-vous de ce que nous a dit le hors-la-loi sur ces "
 "montagnes."
 
 #. [message]: speaker=Anlindë
@@ -4993,12 +5058,12 @@ msgstr ""
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:206
 msgid "Never! We shall get our revenge on you all, bastards!"
-msgstr "Jamais ! Nous nous vengerons sur vous tous, bâtards !"
+msgstr "Jamais ! Nous nous vengerons de vous tous, bâtards !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:207
 msgid "Then so be it. Prepare for..."
-msgstr "Qu'il en soit ainsi. Préparez vous...."
+msgstr "Qu'il en soit ainsi. Préparez-vous à...."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:208
@@ -5006,8 +5071,8 @@ msgid ""
 "So undead control this river. Well, it's time to get rid of them and claim "
 "these lands for the Master!"
 msgstr ""
-"Ainsi les morts-vivants contrôlent cette rivière. Bien, il est temps de se "
-"débarrasser d'eux et de revendiquer ces terres pour le Maître !"
+"Ainsi les morts-vivants contrôlent cette rivière. Bien, il est temps de s'en "
+"débarrasser et de revendiquer ces terres pour le Maître !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:209
@@ -5017,13 +5082,13 @@ msgid ""
 "much, they shall perish anyway, whatever their number is."
 msgstr ""
 "Oh, les rumeurs étaient fondées, les humains ont organisé et coordonné leurs "
-"forces pour prendre toutes les endroits viables dans le désert. Peu importe, "
+"forces pour s'emparer de tous les endroits viables du désert. Peu importe, "
 "ils périront de toutes manières, quelque soit leur nombre."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:210
 msgid "Blast it, the Loyalists! This might be worse than I thought."
-msgstr "Bon sang, des loyalistes ! Ce pourrait être pire que je n'imaginais."
+msgstr "Bon sang, des loyalistes ! Ça pourrait être pire que j'imaginais."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:212
@@ -5037,14 +5102,14 @@ msgid ""
 "all. If they are really working for a 'Master', then we must make sure they "
 "never find out what happened here."
 msgstr ""
-"Ce n'est pas aussi important que ce qui nous arrivera si nous ne les "
-"détruisons pas tous. s'ils travaillent effectivement pour un 'Maître', nous "
-"devons nous assurer qu'il ne découvre jamais ce qui est arrivée ici."
+"Peu importe, ce n'est pas aussi grave que ce qui nous arrivera si nous ne "
+"les détruisons pas tous. S'ils travaillent effectivement pour un « Maître », "
+"nous devons nous assurer qu'ils ne découvrent jamais ce qui est arrivé ici."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:214
 msgid "So, should we kill all of them?"
-msgstr "Devons nous tous les tuer ?"
+msgstr "Nous devons donc tous les tuer ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:215
@@ -5052,13 +5117,13 @@ msgid ""
 "Exactly. Additionally, we must defeat that lich in order to gain access to "
 "the mountain pass to the northern fields."
 msgstr ""
-"Exact. De plus nous devons battre la liche pour avoir accès au col vers les "
-"territoires du nord."
+"Exact. De plus, nous devons battre la liche pour avoir accès au col menant "
+"aux territoires du nord."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:216
 msgid "And what about the fugitives?"
-msgstr "Mais qu'en est-il des fugitifs ?"
+msgstr "Et les fugitifs ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:217
@@ -5067,7 +5132,7 @@ msgid ""
 "bunch, numerically inferior to us, so we could just ignore them for now. On "
 "the other hand, vanquishing them might bring us some benefits. You decide."
 msgstr ""
-"Ils ne forment une grande menace en soi. Nous pouvons tout simplement "
+"Ils ne forment pas une grande menace en soi. Nous pouvons tout simplement "
 "ignorer cette petite bande inorganisée. Mais les vaincre pourrait nous "
 "rapporter quelques bénéfices. À vous de décider."
 
@@ -5129,7 +5194,7 @@ msgid ""
 "It is said that these beasts are impossible to kill. Let us see whether that "
 "is true or not."
 msgstr ""
-"On raconte que ces bêtes sont impossible à tuer. Vérifions si c'est vrai ou "
+"On raconte que ces bêtes sont impossibles à tuer. Vérifions si c'est vrai ou "
 "non."
 
 #. [message]: speaker=Galas
@@ -5351,8 +5416,8 @@ msgid ""
 "Kill all the loyalist bastards, leave no one alive! And destroy the "
 "disgusting intruders!"
 msgstr ""
-"Tuez tous ces bâtards de loyalistes, pas de quartier ! Et détruisez ces "
-"foutus intrus."
+"Tuez tous ces maudits loyalistes, pas de quartier ! Et détruisez ces foutus "
+"intrus."
 
 #. [message]: speaker=unit
 #: Invasion_from_the_Unknown/scenarios/05a_Crossfire.cfg:719
@@ -5493,7 +5558,7 @@ msgstr "Vulcar"
 msgid ""
 "Galas, Anlindë or Mal Keshar must reach the northern end of the mountain pass"
 msgstr ""
-"Galas, Anlindë ou Mal Keshar doivent atteindre l'extrémité nord de la chaine "
+"Galas, Anlindë ou Mal Keshar doivent atteindre l'extrémité nord de la chaîne "
 "de montagne"
 
 #. [event]
@@ -5553,6 +5618,8 @@ msgid ""
 "We ought not to enter there and investigate. We have a clear purpose to "
 "fulfill, and we should not let small things such as curiousity distract us."
 msgstr ""
+"Nous ne devrions pas explorer ça. Nous avons un but précis et nous ne "
+"devrions pas nous laisser distraire par la curiosité."
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:192
@@ -5638,17 +5705,22 @@ msgstr "Qu'est-ce que c'est ? Hé, regardez ! Les portes se sont ouvertes !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:231
+#, fuzzy
 msgid ""
 "Well, well, this monster seems to have been protecting that cave. I wonder "
 "what is in there?"
 msgstr ""
+"Bon, bon, ce monstre semblait protéger cette caverne. Je me demande ce qu'il "
+"y a l'intérieur."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:232
+#, fuzzy
 msgid ""
 "Perhaps we should investigate it. It might be unwise to leave an unknown "
 "threat to our rear. What do you think, Anlindë?"
 msgstr ""
+"Peut-être que nous devrions aller l'explorer. Qu'en pensez-vous, Anlindë ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:233
@@ -5657,19 +5729,27 @@ msgstr ""
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:255
+#, fuzzy
 msgid ""
 "A dead end, it seems. But hold, I have found something. It is a ring, red as "
 "blood, and it appears to have an inscription carved on it. But I cannot read "
 "it, I don't know this language"
 msgstr ""
+"On dirait un cul-de-sac. Mais, une seconde... j'ai trouvé quelque chose, un "
+"anneau aussi écarlate que le sang. On dirait qu'une inscription est gravée "
+"dessus. Mais je n'arrive pas à en lire la langue."
 
 #. [else]
 #: Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:258
+#, fuzzy
 msgid ""
 "A dead end, it seems. But hold... I have found something. It is a ring, red "
 "as blood, and it appears to have an inscription carved on it. But I cannot "
 "read it, I don't know this language"
 msgstr ""
+"On dirait un cul-de-sac. Mais, une seconde... j'ai trouvé quelque chose, un "
+"anneau aussi écarlate que le sang. On dirait qu'une inscription est gravée "
+"dessus. Mais je n'arrive pas à en lire la langue."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/05b_Cursed_Plateau.cfg:261
@@ -5818,7 +5898,7 @@ msgstr "Je redoutais quelque chose comme cela."
 #, fuzzy
 msgid "What should we do? Are you sure of what you are doing, Keshar?"
 msgstr ""
-"Que devons-nous faire. Êtes-vous certain de ce que vous faites, Keshar ?"
+"Que devons-nous faire ? Êtes-vous certain de ce que vous faites, Keshar ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:260
@@ -5833,7 +5913,7 @@ msgid ""
 "your deaths!"
 msgstr ""
 "Quels mots imbéciles ! J'aurais pu tous vous tuer durant votre sommeil si je "
-"l'avais vraiment voulu ! Ne croyez pas que vous êtes les premiers à mal "
+"l'avais vraiment voulu ! Ne croyez pas que vous êtes les premiers à mal "
 "interpréter mes actes..."
 
 #. [event]
@@ -6180,7 +6260,7 @@ msgid ""
 msgstr ""
 "J'avais déjà lu et entendu des histoires sur des créatures aussi imposantes "
 "que celle-là, mais j'ai toujours cru qu'il s'agissait de fables et non pas "
-"que c'était vrai !"
+"que c'était vrai !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:491
@@ -6189,8 +6269,8 @@ msgid ""
 "Retreat! We must lure the creature out of there, surround it and strike it "
 "down, quickly!"
 msgstr ""
-"Retraite ! Nous devons attirer la créature hors d'ici, l'entourer et "
-"l'abattre, vite !"
+"Retraite ! Nous devons attirer la créature hors d'ici, l'entourer et "
+"l'abattre, vite !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/06_The_Moon_Valley.cfg:492
@@ -6225,7 +6305,7 @@ msgid ""
 "species a lesson to remember. May the undead hordes rise and swallow their "
 "attack forces!"
 msgstr ""
-"Ah, la longue nuit, enfin ! C'est l'occasion de donner aux orcs une leçon "
+"Ah, la longue nuit, enfin ! C'est l'occasion de donner aux orcs une leçon "
 "dont ils se souviendront. Que les forces des morts-vivants s'élèvent pour "
 "étouffer leurs forces !"
 
@@ -6349,6 +6429,8 @@ msgid ""
 "The drinker's strength is increased for a while, adding 2 damage points to "
 "their melee attacks, and adding 8 points to their total HP."
 msgstr ""
+"La force du buveur est augmentée pendant un instant, ce qui ajoute 2 points "
+"aux dégâts provoqués en corps à corps et 8 au total des points de vie."
 
 #. [object]
 #: Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:533
@@ -6410,17 +6492,17 @@ msgid ""
 "these goliaths to crush us. Let's quit this chamber and continue exploring, "
 "but be on your keenest guard."
 msgstr ""
-"Cela pourrait seulement être causé par ces créatures dégoûtantes. Ils "
-"doivent avoir apporté ce Goliath pour nous écraser. Sortons de cette chambre "
-"et continuons à explorer, mais soyons prudents, car nous ne savons pas "
-"combien d'autres pourrait se cacher alentour."
+"Cela pourrait être à cause de ces créatures dégoûtantes. Elles doivent avoir "
+"ramené ces Goliaths pour nous écraser. Sortons de cette chambre et "
+"continuons à explorer, mais soyons prudents : nous ne savons pas combien "
+"d'autres pourraient se cacher pas loin."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:675
 msgid ""
 "Look, this wall opened after we killed that beast. Should we go this way?"
 msgstr ""
-"Regardez, ce mur s'est ouvert après la mort de la bête. Suivrons-nous cette "
+"Regardez, ce mur s'est ouvert après la mort de la bête. Nous suivons cette "
 "voie ?"
 
 #. [event]
@@ -6435,10 +6517,14 @@ msgstr "Je croyais avoir déjà tout vu, mais quel est ce truc ?"
 
 #. [event]: (race=shaxthal)}
 #: Invasion_from_the_Unknown/scenarios/07_The_Elf_and_Goliath.cfg:710
+#, fuzzy
 msgid ""
 "I have never read or heard about the existence of such a creature. I suppose "
 "its another foe sent to obstruct our path."
 msgstr ""
+"Je n'avais jamais lu ou entendu d'informations sur l'existence d'une telle "
+"créature. Je dirais que c'est un nouvel ennemi envoyé pour nous barrer la "
+"route."
 
 #. [scenario]
 #: Invasion_from_the_Unknown/scenarios/08a_Errand_of_Hope.cfg:5
@@ -6615,6 +6701,8 @@ msgid ""
 "Um... these gates seem to be magical in nature. They gently blow in a "
 "blueish tone, and I cannot even touch them."
 msgstr ""
+"Hmm... ces portes paraissent magiques. Elles brillent d'un ton bleuté et je "
+"n'arrive pas à les toucher."
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/08a_Errand_of_Hope.cfg:452
@@ -6779,7 +6867,7 @@ msgid ""
 "valley since the Fall!"
 msgstr ""
 "Nous ? Je ne comprends pas, vraiment. Notre peuple n'a jamais quitté sa "
-"vallée depuis la Chute !"
+"vallée depuis la Chute !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/08a_Errand_of_Hope.cfg:781
@@ -6787,6 +6875,8 @@ msgid ""
 "What do you say? I always thought your people came from the vast Southern "
 "desert..."
 msgstr ""
+"Que dites-vous ? J'ai toujours pensé que votre peuple venait du grand désert "
+"méridional..."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/08a_Errand_of_Hope.cfg:782
@@ -6805,6 +6895,10 @@ msgid ""
 "trying to take over our tunnels. But in our rear we have some rampant trolls "
 "who want to do the same. It'd be great if you can defeat both of them."
 msgstr ""
+"Excellent. Comme vous pouvez le voir, ce sont de sales hommes venant des "
+"terres du chaos qui essayent d'envahir nos galeries. Mais, comble de "
+"malheur, des trolls essayent de faire la même chose. Ce serait chouette si "
+"vous arriviez à vaincre les deux."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/08a_Errand_of_Hope.cfg:786
@@ -6846,12 +6940,12 @@ msgstr "Vaincre tous les chefs ennemis"
 msgid ""
 "Friend elves, I have got to report to the king these news. Please stand "
 "fast, I shall be back with you soon."
-msgstr ""
+msgstr "Amis elfes, je dois en référer au roi. Résistez, je reviendrai vite."
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/08a_Errand_of_Hope.cfg:842
 msgid "I wonder if he's just escaping from the battlefield or not."
-msgstr "Je me demande s'il a simplement fui le combat ou pas."
+msgstr "Je me demande s'il a fui le combat ou pas."
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/08a_Errand_of_Hope.cfg:843
@@ -6860,6 +6954,9 @@ msgid ""
 "not leave a battle just to let others do the dirty job, it would be against "
 "their own pride."
 msgstr ""
+"Non... je ne pense pas. Les nains ont toujours été très belliqueux. Ils ne "
+"partiraient pas en laissant les autres s'occuper du sale boulot, ce serait "
+"contraire à leur sens de l'honneur."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/08a_Errand_of_Hope.cfg:858
@@ -6949,6 +7046,7 @@ msgstr "Attendez. J'entends quelque chose qui nage dans ces eaux. Qui est là ?
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/08a_Errand_of_Hope.cfg:1078
+#, fuzzy
 msgid ""
 "NOTE FOR TRANSLATORS: Eela is a female nagini name derivated from 'eel', "
 "that I invented IIRC :) Use it as you desire in your target language."
@@ -7268,7 +7366,7 @@ msgid ""
 "Note: Galas is getting used to moving in caves, so his movement cost in "
 "caves is reduced 1 unit ."
 msgstr ""
-"Remarque : Galas s'habitue à se déplacer dans les souterrains ; il lui faut "
+"Remarque : Galas s'habitue à se déplacer dans les souterrains ; il lui faut "
 "donc un point de mouvement de moins pour s'y déplacer."
 
 #. [objectives]
@@ -7313,6 +7411,10 @@ msgid ""
 "weapon that can remove the life from the living, and grant the life to the "
 "non-living."
 msgstr ""
+"L'énergie sacrée garantit la vie dans notre univers. Elle peut cependant "
+"être canalisée pour la transformer en arme puissance et dangereuse, qui "
+"soustrait la vie aux êtres vivants, et alimente en énergie ceux qui ne sont "
+"pas vivants."
 
 #. [scenario]
 #: Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:373
@@ -7391,7 +7493,7 @@ msgstr ""
 msgid ""
 "A prophecy was made about the day when the two globes would have to be "
 "gathered together."
-msgstr ""
+msgstr "Une prophétie parle d'un jour ou deux globes seraient réunis."
 
 #. [event]
 #. [scenario]
@@ -7452,6 +7554,8 @@ msgid ""
 "The prophecy of the Union was made by an ancient Argazar wiseman whose name "
 "has not been yet confirmed, as he was never seen again."
 msgstr ""
+"La prophétie de l'Union a été faite pas un ancien sage Argazar dont le nom "
+"est encore inconnu et qui n'a jamais été revu."
 
 #. [scenario]
 #: Invasion_from_the_Unknown/scenarios/09_The_Library.cfg:401
@@ -7911,7 +8015,7 @@ msgstr ""
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:764
 msgid "Oh yes? That would be a great help."
-msgstr "Ah oui ? Ce serait très utile."
+msgstr "Ah oui ? Ce serait très utile."
 
 #. [objectives]
 #: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:773
@@ -8396,7 +8500,7 @@ msgstr ""
 #. [event]: (description=Mal Keshar)}
 #: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1279
 msgid "But, what happened with the third sun?"
-msgstr "Mais qu'est-il arrivé au troisième soleil ?"
+msgstr "Mais qu'est-il arrivé au troisième soleil ?"
 
 #. [event]: (description=Mal Keshar)}
 #: Invasion_from_the_Unknown/scenarios/10_The_Source_of_Light.cfg:1280
@@ -9479,16 +9583,14 @@ msgstr "Je vois que je ne pourrais pas vous convaincre du contraire."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:414
-#, fuzzy
 msgid ""
 "It was not necessary to take my words to heart, but if you feel so guilty "
 "for the past, I guess we cannot do much for you, other than let your last "
 "wish become true."
 msgstr ""
-"Il n'est pas nécessaire de prendre mes mots au pied de la lettre, mais si "
-"vous vous sentez coupable pour le passé, je suppose que nous ne pouvons pas "
-"faire grand chose pour vous, si ce n'est de vous laisser poursuivre votre "
-"désir."
+"Inutile de prendre mes mots au pied de la lettre, mais si vous vous sentez "
+"responsable du passé, je suppose que nous ne pourrons pas faire grand chose "
+"pour vous... sinon laisser se réaliser votre dernier désir."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/11_Strike_on_New_Knalga.cfg:415
@@ -9890,7 +9992,8 @@ msgid ""
 "They must be the rearguard of our 'friends'. It is a must for us to defeat "
 "their captain."
 msgstr ""
-"Ce doit être l'arrière-garde de nos « amis ». Nous devons tuer leur capitaine."
+"Ce doit être l'arrière-garde de nos « amis ». Nous devons tuer leur "
+"capitaine."
 
 #. [objectives]
 #: Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:409
@@ -9959,7 +10062,7 @@ msgstr "Comment ai-je pu faillir ? Pardonnez-moi, maître..."
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:475
 msgid "Its body tears apart and dissolves into slime!"
-msgstr "Son corps se morcelle et se transforme en gélatine !"
+msgstr "Son corps se morcelle et se transforme en gélatine !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/12_The_Escape.cfg:476
@@ -10050,7 +10153,7 @@ msgstr "Résister pendant $survival_turns turns tours"
 #. [objectives]
 #: Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:188
 msgid "Death of Anlindë before $survival_turns turns have passed"
-msgstr "Mort d'Anlindë avant que $survival_turns tours ne soient passés"
+msgstr "Mort d'Anlindë avant $survival_turns tours"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:197
@@ -10068,6 +10171,8 @@ msgid ""
 "I am not sure, but they seem to be laying their larvae on the cavern's "
 "floor, and consuming it."
 msgstr ""
+"Je ne jurerais de rien, mais elles semblent déposer leurs larves sur le sol "
+"de la grotte et les consommer."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:201
@@ -10075,9 +10180,9 @@ msgid ""
 "Milady, we shall not let these invaders take over Knalga without giving a "
 "bloody fight first. We'll fight for you; may glory be our tomb today."
 msgstr ""
-"Madame, nous ne laisserons pas ces intrus envahir Knalga sans livre une "
-"sanglante bataille d'abord. Nous combattrons pour vous. Puisse la gloire "
-"être notre linceul en ce jour."
+"Madame, nous ne laisserons pas ces intrus envahir Knalga sans livrer une "
+"sanglante bataille d'abord. Nous combattrons pour vous. La gloire sera "
+"aujourd'hui notre linceul."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:203
@@ -10200,7 +10305,7 @@ msgstr "Alors je trouverai un autre moyen."
 msgid ""
 "Ha, ha, I don't think you are ever going to have time for that before I kill "
 "you!"
-msgstr "Ha ha, je ne pense pas que tu en auras le temps, je te tuerai avant !"
+msgstr "Ha ha, je ne pense pas que tu en auras le temps, je te tuerai avant !"
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:364
@@ -10220,7 +10325,7 @@ msgid ""
 msgstr ""
 "Cela prouve de toute évidente que Mal Keshar n'a aucun pouvoir contre ces "
 "démons. Je dois me débarrasser de ce mystérieux visage masqué d'une façon ou "
-"d'une autre, ou ils seront perdus contre lui !"
+"d'une autre, ou ils seront perdus contre lui !"
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/13_Face_your_Fate.cfg:398
@@ -10529,7 +10634,7 @@ msgid ""
 "Elves? And refugees, you say. Elves, indeed. Creatures that don't exist but "
 "in old tales of the past times."
 msgstr ""
-"Des elfes ? Et des réfugiés, vous dites. Des elfes, vraiment. Des créatures "
+"Des elfes ? Et des réfugiés, vous dites. Des elfes, vraiment. Des créatures "
 "qui n'existent que dans les vieilles légendes du passé."
 
 #. [event]
@@ -10610,7 +10715,7 @@ msgid ""
 "of the former glory of Wesnoth!"
 msgstr ""
 "Les démons. Les loyalistes. Ce maudit Empire du Chaos et tous ces "
-"usurpateurs de l'ancienne gloire de Wesnoth !"
+"usurpateurs de l'ancienne gloire de Wesnoth !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:452
@@ -10653,7 +10758,7 @@ msgid ""
 "Shelter? Uh... only the Grand Council can decide whether to allow you to "
 "live in our country or not."
 msgstr ""
-"Un refuge ? Oh... seul le Grand Conseil peut vous autoriser à vivre chez "
+"Un refuge ? Oh... seul le Grand Conseil peut vous autoriser à vivre chez "
 "nous."
 
 #. [event]
@@ -10678,7 +10783,7 @@ msgstr ""
 "raison de débuter une guerre, si c'est ce que vous suggérez. Nous avons "
 "résisté à leurs attaques durant toutes ces années, pourquoi ne pas continuer "
 "au lieu d'envoyer un ultimatum alors que nous ne sommes pas en mesure de le "
-"faire ?"
+"faire ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:460
@@ -10702,7 +10807,7 @@ msgid ""
 "They like to trick our people to satisfy their whimsical demands."
 msgstr ""
 "Sages propos. Très avisés, effectivement. Mais qui êtes-vous, en fait ? Ou, "
-"plus précisément, qu'êtes-vous ? Vous ressemblez à une de ces fées "
+"plus précisément, qu'êtes-vous ? Vous ressemblez à une de ces fées "
 "traîtresses. Elles aiment embobiner les gens pour satisfaire leurs caprices."
 
 #. [event]
@@ -10711,8 +10816,8 @@ msgid ""
 "She is Elynia, known by some elves as Eloh, the 'Source of Light' for the "
 "Dwarves, or the Lady of Light, for us, humans."
 msgstr ""
-"Il s'agit d'Elynia, que les elfes appellent « Eloh », les nains la « Source de "
-"Lumière », et nous les humains la « Madone de Lumière »."
+"Il s'agit d'Elynia, que les elfes appellent « Eloh », les nains la « Source "
+"de Lumière », et nous les humains la « Madone de Lumière »."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/14_Bye_and_Behold.cfg:463
@@ -10826,7 +10931,7 @@ msgid ""
 "Are we gonna kill orcs? Oh my, what should I do? I don't want to slay my "
 "kinsmen."
 msgstr ""
-"Est-ce qu'on va tuer des orcs ? Oh la la, que dois-je faire ? Je ne veux pas "
+"Est-ce qu'on va tuer des orcs ? Oh la la, que dois-je faire ? Je ne veux pas "
 "tuer mes semblables."
 
 #. [then]
@@ -11478,6 +11583,8 @@ msgid ""
 "If there is anything to be paid with blood, it is our debt to Anlindë. And "
 "we shall pay, with with your blood!"
 msgstr ""
+"S'il y a quelque chose à payer avec du sans, c'est notre dette envers "
+"Anlindë. Et nous paierons, de notre sang !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:216
@@ -11485,6 +11592,9 @@ msgid ""
 "Courageous words, yet foolish ones that cannot save your lives. You defy us, "
 "and that shall not be tolerated. Let's see who falls first."
 msgstr ""
+"Ce sont des mots courageux, même s'ils sont un peu inconscients et s'ils ne "
+"pourront vous sauver la vie. Vous nous défiez, et cela ne peut être toléré. "
+"Voyons-voir qui cède le premier."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:217
@@ -11507,6 +11617,8 @@ msgid ""
 "It seems that no matter how many of those automatons we knock out, there are "
 "always more to replace them."
 msgstr ""
+"On dirait que le nombre d'automates que nous cassons n'a pas d'importance, "
+"il y en a toujours plus."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/16_Arrival_of_the_Battalion.cfg:221
@@ -11876,6 +11988,8 @@ msgid ""
 "Sneak past the enemy lines and make it to the mountain pass (southern map "
 "border)"
 msgstr ""
+"Se faufiler à travers les lignes ennemies et arriver à la passe montagneuse "
+"(bord sud de la carte)"
 
 #. [objectives]
 #: Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:540
@@ -12090,6 +12204,8 @@ msgid ""
 "All our allies have fallen on the battlefield! Our mission has failed, and "
 "now we'll have to retreat and get reinforcements!"
 msgstr ""
+"Tous nos alliés sont tombés sur le champ de bataille ! Notre mission a raté "
+"et nous allons devoir faire retraite pour chercher des renforts !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/17_Dawn_of_the_Great_War.cfg:1063
@@ -12587,7 +12703,7 @@ msgstr "La prochaine fois, faites attention à où vous mettez les pieds !"
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:264
 msgid "Dang."
-msgstr "Dang."
+msgstr "Merdre."
 
 #. [unit]: type=Blood Imp, description=Oz
 #: Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:284
@@ -12652,7 +12768,7 @@ msgid ""
 "There may not be any trees alive in this place, but it seems those things do "
 "as a good replacement."
 msgstr ""
-"Il n'y a peu être plus d'arbres de vivant dans cet endroit, mais on dirait "
+"Il n'y a peut-être plus d'arbres vivants dans cet endroit, mais on dirait "
 "que ces choses peuvent faire l'affaire."
 
 #. [event]: type=Verlissh Matrix Flow System
@@ -12661,11 +12777,13 @@ msgid ""
 "They look like conducts of a bigger creature, and fairly resemble those "
 "creeping horrors of the Chaos hordes."
 msgstr ""
+"Elles ont des allures d'une créature plus imposante, et ressemblent plus ou "
+"moins à ces horreurs rampantes des hordes du chaos."
 
 #. [event]: type=Verlissh Matrix Flow System
 #: Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:370
 msgid "Probably they are relatives."
-msgstr "Ils sont sûrement apparentés."
+msgstr "Elle y sont sûrement apparentées."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:381
@@ -12673,6 +12791,8 @@ msgid ""
 "Something really wrong goes on in here. There are undead tree-folk wandering "
 "around these plains."
 msgstr ""
+"Il y a quelque chose qui ne va vraiment pas ici. Il y a des êtres sylvestres "
+"morts-vivants qui se baladent dans ces plaines."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:382
@@ -12681,11 +12801,15 @@ msgid ""
 "who were cursed by the demon lord to stay in the earth for the rest of "
 "eternity, trapped between death and life."
 msgstr ""
+"C'est une partie des victimes innocentes de cette nuit fatale, qui fut "
+"maudite par le seigneur démon à vagabonder sur terre jusqu'à la fin des "
+"temps, errant piégée entre la mort et la vie."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:383
 msgid "Then let's help and give them a final rest."
-msgstr "Alors donnons un coup de main et accordons-leur leur dernier repos."
+msgstr ""
+"Alors donnons-leur un coup de main et accordons-leur leur dernier repos."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:394
@@ -12700,6 +12824,10 @@ msgid ""
 "could fly and breath fire as well, but they were smaller and different in "
 "various other ways."
 msgstr ""
+"Oui et non. Il y avait autrefois une race descendant des dragons légendaires "
+"appelée les « Dracans ». Ils ressemblaient à de petits dragons, et la "
+"plupart pouvait voler et cracher du feu, mais ils étaient plus faibles et "
+"bien différents sous plusieurs aspects."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/19_Legend_of_Wesmere.cfg:396
@@ -12775,7 +12903,7 @@ msgstr "Renan"
 #. [side]: type=Verlissh Matrix Core, description=Matrix1
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:64
 msgid "Alien Matrix"
-msgstr "Matrice alien"
+msgstr "Matrice extraterrestre"
 
 #. [side]: type=Verlissh Matrix Core, description=Matrix1
 #. [side]: type=Shaxthal Protector Drone
@@ -12798,7 +12926,7 @@ msgstr ""
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:323
 msgid "These noxious caves smell worse than a skunk's burrow."
-msgstr ""
+msgstr "Ces cavernes toxiques puent plus que le terrier d'un putois."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:324
@@ -12859,14 +12987,13 @@ msgstr "Ahhh... au... secours !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:353
-#, fuzzy
 msgid ""
 "Something is trying to contaminate and possess his mind. Elynia, invoke the "
 "power of Light and get the shadows out of his body, or we'll lose him!"
 msgstr ""
 "Quelque chose tente d'envahir et de posséder son esprit. Elynia, invoquez le "
-"pouvoir de la Lumière et éloignez les ombres de son corps, sinon nous le "
-"perdrons."
+"pouvoir de la lumière et éloignez les ombres de son corps, sinon nous le "
+"perdrons !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:369
@@ -12877,13 +13004,13 @@ msgstr "Galas, s'il te plaît, ne meurt pas. Nous avons besoin de toi."
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:370
 msgid "Don't despair, girl. He is still alive, just unconscious right now."
 msgstr ""
-"Ne désespérez pas, fillette. Il est toujours vivant juste inconscient pour "
-"le moment."
+"Ne désespérez pas, fillette. Il est toujours vivant, mais juste inconscient "
+"pour le moment."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:371
 msgid "What should I do now?"
-msgstr "Que dois je faire maintenant ?"
+msgstr "Que dois-je faire maintenant ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:372
@@ -12893,8 +13020,8 @@ msgid ""
 "allow the shadows to contaminate him again."
 msgstr ""
 "Guider les autres vivants jusqu'à ce que Galas reprenne conscience. Il aura "
-"besoin de repos, mais assurez vous qu'il ne reste pas seul dans les "
-"ténèbres, ce qui permettrait aux ombres de le contaminer de nouveau."
+"besoin de repos, mais il ne doit pas rester seul dans les ténèbres, cela "
+"permettrait aux ombres de le contaminer une nouvelle fois."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:406
@@ -12903,7 +13030,7 @@ msgid ""
 "vulnerable in the darkness and corruption of these haunted caves."
 msgstr ""
 "Je deviens nerveuse. Nous devrions sortir de cet endroit bientôt, nous "
-"sommes trop vulnérables dans l'obscurité et la pourriture de ces cavernes "
+"sommes trop vulnérables dans l'obscurité et la décrépitude de ces cavernes "
 "hantées."
 
 #. [event]
@@ -12912,7 +13039,7 @@ msgid ""
 "Were these tunnels our only option, Elynia? I am starting to think I would "
 "have rather preferred to fight on the surface than here."
 msgstr ""
-"Ces tunnels sont ils notre seule option, Elynia ? Je commence à penser que "
+"Ces tunnels sont-ils notre seule option, Elynia ? Je commence à penser que "
 "j'aurai préféré combattre en surface qu'ici."
 
 #. [event]
@@ -12932,8 +13059,7 @@ msgstr "Vous marquez un point."
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:418
 msgid "This is taking too long, and I'm getting impatient. Make haste, fools!"
-msgstr ""
-"C'est trop long et je deviens impatient. Dépêchez vous, bande d'idiots."
+msgstr "C'est trop long et cela m'impatiente. Dépêchez-vous, crétins !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:420
@@ -12947,14 +13073,14 @@ msgid ""
 "surrounded us! We are trapped between them and the cave walls. It is the "
 "end..."
 msgstr ""
-"Oh non, nous sommes resté ici trop longtemps et les drones nous ont trouvés "
+"Oh non, nous sommes restés ici trop longtemps et les drones nous ont trouvés "
 "et nous ont encerclés. Nous sommes pris au piège entre eux et les murs de la "
 "caverne. C'est la fin..."
 
 #. [event]: (type=Verlissh Matrix Core)}
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:431
 msgid "What in name of goodness is that thing?"
-msgstr "Au nom de la déesse, qu'est cette chose ?"
+msgstr "Au nom de la déesse, quelle est cette chose ?"
 
 #. [event]: (type=Verlissh Matrix Core)}
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:432
@@ -12962,9 +13088,9 @@ msgid ""
 "Look out! It seems to be a matrix filled with larvae of those abominations. "
 "Perhaps if we can destroy it they will not pursue us any longer."
 msgstr ""
-"Regardez ! Ça ressemble à une matrice pleine de larves de ces abominations. "
-"Peut-être que si nous pouvions la détruire ils ne nous poursuivraient pas "
-"plus longtemps."
+"Regardez ! Ça ressemble à une matrice remplie des larves de ces "
+"abominations. Si nous pouvions la détruire, ils ne nous peut-être "
+"poursuivraient pas plus longtemps."
 
 #. [event]: (type=Verlissh Matrix Core)}
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:433
@@ -12977,6 +13103,8 @@ msgid ""
 "Please remember that we have a mission to complete; we did not come down "
 "here to kill every foe we spot lurking in this place."
 msgstr ""
+"S'il vous plaît, rappelez-vous que nous avons une mission à terminer ; nous "
+"ne sommes pas venus ici pour tuer tout ce qui bouge."
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:482
@@ -12984,6 +13112,8 @@ msgid ""
 "Right, but it seems that it will be impossible to pass unnoticed by these "
 "caves without being struck down by its inhabitants."
 msgstr ""
+"Exact, mais on dirait qu'il est impossible de ne pas se faire remarquer dans "
+"ces grottes, et ne pas se faire attaquer par ses occupants."
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:483
@@ -12991,6 +13121,8 @@ msgid ""
 "I fear that Mal Keshar is right. We have to get out of here, and I doubt "
 "we'll be able to without fighting with the natives."
 msgstr ""
+"J'ai peur que Mal Kesher n'ait raison. Si nous voulons nous en sortir, nous "
+"devrons sans doute combattre les locaux."
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:484
@@ -13000,7 +13132,7 @@ msgstr "Le plan a donc échoué."
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:485
 msgid "I still have hopes that this noise is not going to alert the Emperor."
-msgstr ""
+msgstr "J'espère toujours que ce bruit n'alertera pas l'empereur."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:551
@@ -13035,7 +13167,7 @@ msgstr "Galas, oh, j'ai failli penser que nous vous avions perdu !"
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:573
 msgid "Elynia... what happened? Where are we?"
-msgstr "Elynia.. Qu'est-il arrivé ? Où sommes-nous ?"
+msgstr "Elynia... Qu'est-il arrivé ? Où sommes-nous ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:574
@@ -13048,14 +13180,12 @@ msgstr ""
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:575
-#, fuzzy
 msgid ""
 "Galas, you almost made us think you were dead! But what happened to you "
 "shortly after entering the cave, is what we may ask now."
 msgstr ""
-"Galas, nous t'avions presque considéré comme mort ! Mais que t'est-il arrivé "
-"peu de temps après l'entrée dans la caverne, c'est ce que je peux demander "
-"maintenant."
+"Galas, nous t'avions presque considéré comme mort ! Mais nous voudrions te "
+"demander ce qui t'est arrivé peu de temps après ton entrée dans la caverne."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:576
@@ -13081,7 +13211,7 @@ msgid ""
 "Galas, please explain us. We are your friends, and will support you in any "
 "circumstances."
 msgstr ""
-"Galas, s'il te plaît, explique-nous. Nous sommes tes amis et nous te "
+"Galas, s'il vous plaît, expliquez-nous. Nous sommes vos amis et nous vous "
 "soutiendrons en toutes circonstances."
 
 #. [event]
@@ -13096,10 +13226,10 @@ msgid ""
 "and destroy my mind, ranting things about his power in the darkness... he "
 "tried to convince me to slay you... he tempted me... he almost..."
 msgstr ""
-"Il semble que je sois trop faible d'esprit. Le seigneur du chaos semble "
-"avoir essayé d'envahir et de détruire mon esprit, divaguant sur son pouvoir "
-"dans les ténèbres... il a essayé de me convaincre de vous assassiner... il "
-"m'a tenté... il a presque..."
+"Il semble que ma volonté soit trop faible. Le seigneur du chaos semble avoir "
+"essayé d'envahir et de détruire mon esprit, divaguant sur son pouvoir dans "
+"les ténèbres... il a essayé de me convaincre de vous assassiner... il m'a "
+"tenté... il a presque..."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:581
@@ -13108,10 +13238,10 @@ msgid ""
 "even possessed me, but it seems his powers are severely diminished by my "
 "light, as that is what I used to save you."
 msgstr ""
-"Galas, ne te sens pas coupable. S'il espérait avoir accès à mon esprit, il "
-"pourrait m'avoir même possédé, mais il semble que ses pouvoirs sont "
-"sévèrement diminués par ma lumière, puisque c'est d'elle dont je me suis "
-"servi pour te sauver."
+"Galas, ne vous sentez pas coupable. S'il avait réussi à avoir accès à mon "
+"esprit, il aurait aussi pu me posséder, mais ses pouvoirs semblent avoir "
+"beaucoup diminué grâce à ma lumière, dont je me suis d'ailleurs servi pour "
+"te sauver."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:582
@@ -13119,9 +13249,9 @@ msgid ""
 "The light? That makes sense, he said he is even stronger in the darkness of "
 "the caves, even stronger than he already is in his own domains, these lands."
 msgstr ""
-"La lumière ? Cela peut vouloir dire quelque chose, il disait qu'il était "
-"encore plus fort dans l'obscurité des cavernes, plus forts même qu'il ne "
-"l'est déjà dans ses propres domaines, ces terres."
+"La lumière ? Cela pourrait vouloir dire quelque chose : il disait qu'il "
+"était encore plus fort dans l'obscurité des sous-sols, plus forts même que "
+"dans son propre domaine, ces terres."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:583
@@ -13133,20 +13263,18 @@ msgid ""
 "are just slaved minds of him. But, Elynia... you mentioned that your fianceé "
 "disappeared mysteriously, am I right?"
 msgstr ""
-"Des pouvoirs accrus dans l'obscurité de son territoire ... les diablotins "
-"ont dit quelque chose sur un prétendu 'Maître de l'Ombre'. Tous ces "
-"imbéciles mentionnent leur 'Maître' dans chaque phrase qu'ils prononcent. Il "
-"semble que ce type doit avoir des pouvoirs psychiques forts, aussi fort que "
-"son contrôle sur les ombres; probablement que tous ses favoris sont juste "
-"ses esclaves psychiques. Mais, Elynia ... vous avez mentionné que votre "
-"fiancé avait disparu mystérieusement, suis je dans le vrai ?"
+"Des pouvoirs accrus dans la noirceur de son territoire ... les diablotins "
+"ont parlé d'un prétendu « Maître de l'Ombre ». Tous ces imbéciles "
+"mentionnent leur maître dans chaque phrase qu'ils prononcent. Ce type doit "
+"avoir des pouvoirs psychiques forts, aussi forts que son contrôle sur les "
+"ombres ; tous ses favoris sont probablement ses esclaves psychiques. Mais, "
+"Elynia ... vous avez dit que votre fiancé avait disparu mystérieusement, "
+"n'est-ce pas ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:584
 msgid "Yes, you are. But what has that to do with this problem?"
-msgstr ""
-"Effectivement, vous êtes dans le vrai. Mais quel rapport avec notre "
-"problème ?"
+msgstr "Effectivement. Mais quel rapport avec notre problème ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:585
@@ -13154,19 +13282,18 @@ msgid ""
 "I am getting suspicious... could there be some binding... could it be that "
 "this Shadow Master is actually your fianceé, Argan?"
 msgstr ""
-"Je deviens soupçonneux... cela pourrait coller... se pourrait il que ce "
-"Maître de l'Ombre soit votre fiancé, Argan ?"
+"Je commence à avoir des soupçons... cela pourrait coller... se pourrait-il "
+"que ce Maître de l'Ombre soit votre fiancé, Argan ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:586
 msgid "What?! No, impossible! Where did you get such an idea, fool!"
 msgstr ""
-"Quoi ? Non, impossible. Où êtes-vous allé cherché une idée pareil, vieux "
-"fou ?"
+"Quoi ? Non, impossible. Où êtes-vous allé chercher une idée pareille, "
+"imbécile ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:587
-#, fuzzy
 msgid ""
 "Think about the connection... both of them have grand control of Darkness. "
 "One of them, Argan, disappeared mysteriously. The other one, this Shadow "
@@ -13177,15 +13304,13 @@ msgid ""
 "light protects you as you did with Galas. But Argan would be himself part of "
 "the darkness, very prone to be corrupted."
 msgstr ""
-"Pensez au rapport... tous les deux ont un grand contrôle sur les ténèbres. "
-"L'un d'entre eux, Argan, a disparu mystérieusement. L'autre, ce Maître de "
-"l'Ombre, est apparu mystérieusement. Et si un démon l'avait possédé et fait "
-"entrer de force dans les profondeurs du monde, une force démoniaque des "
-"ténèbres qui l'aurait retourné contre le monde. Je peux comprendre pourquoi "
-"vous n'avez pas été affectée par la corruption de ces lieux, Elynia et c'est "
-"grâce à vous, votre lumière interne propre vous protège comme vous avez fait "
-"avec Galas. Mais le Maître de l'Ombre serait, lui, la partie obscure, trop "
-"encline pour être corrompu."
+"Réfléchissez aux coïncidences... tous les deux contrôlent parfaitement les "
+"ténèbres. Alors qu'Argan disparaît mystérieusement, ce Maître de l'Ombre "
+"apparaît mystérieusement. Et si un démon l'avait possédé et forcé à entrer "
+"dans les profondeurs, pour le retourner contre notre monde ? Vous n'avez pas "
+"été affectée par la corruption de ces lieux, Elynia, car votre lumière "
+"interne vous protège, comme vous avez protégé Galas. Mais le côté obscur "
+"d'Argan le rend très corruptible."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:588
@@ -13195,16 +13320,15 @@ msgid ""
 "cannot be turned to evil. Mal Keshar, you are a lich, I cannot trust your "
 "word, nor accept your reasoning."
 msgstr ""
-"Non, ce ne peut être. La raison exacte pour laquelle nous nous sommes "
-"engagés est qu'il m'avait sauvé grâce aux pouvoirs des ténèbres utilisés à "
-"bon escient. Il n'est pas mauvais. Il ne peut pas être devenu un démon. Mal "
-"Keshar, vous êtes une liche, je ne peux pas avoir confiance en vous, ni "
-"accepter votre raisonnement."
+"Non, impossible. En vérité, nous nous sommes engagés car il avait utilisé "
+"les pouvoirs des ténèbres pour me sauver. Il n'est pas mauvais, il ne peut "
+"pas être devenu un démon. Mal Keshar, vous êtes une liche, je ne peux pas "
+"avoir confiance en vous, ni accepter votre raisonnement."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:589
 msgid "Ah, sorry then, girl. I hope anyway that I'm proven wrong."
-msgstr ""
+msgstr "Ah, bon, désolé jeune fille. J'espère quand même m'être trompé."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:590
@@ -13212,8 +13336,8 @@ msgid ""
 "And Galas, I'll make sure this does not get to occur another time. I'll "
 "protect you from the darkness constantly from now on."
 msgstr ""
-"Et Galas, je m'assurerai que cela n'arrive pas aujourd'hui pour survenir "
-"demain. Je te protégerai constamment de l'obscurité dorénavant."
+"Et Galas, je m'assurerai que cela n'arrive une autre fois. Je vous "
+"protégerai constamment des ténèbres dorénavant."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:591
@@ -13235,6 +13359,8 @@ msgstr "Oui, tout à fait..."
 msgid ""
 "Wait. We can't get out of this cavern until Elynia can exit the alien hive!"
 msgstr ""
+"Attendez. Nous ne pouvons pas quitter cette caverne avant qu'Elynia ne soit "
+"sortie du rucher !"
 
 #. [else]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:641
@@ -13242,6 +13368,8 @@ msgid ""
 "Wait. We can't get out of this cavern until Mal Keshar can exit the alien "
 "hive!"
 msgstr ""
+"Attendez. Nous ne pouvons pas quitter cette caverne avant que Mal Keshar ne "
+"soit sorti du rucher !"
 
 #. [message]: speaker=unit
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:648
@@ -13380,8 +13508,8 @@ msgid ""
 "it and pulls me is... known, somehow."
 msgstr ""
 "Un glyphe de cristal géant est au centre de la salle.  Il flotte et éclaire "
-"tout d'une lueur bleutée. Et l'énergie qui en sort et m'attire... n'est "
-"connue, d'une certaine façon."
+"tout d'une lueur bleutée. Et l'énergie qui en sort et qui m'attire... je la "
+"connais, d'une façon ou d'une autre."
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:810
@@ -13389,13 +13517,13 @@ msgid ""
 "Sounds like one of those that we found in the depths of the Unknown. Be "
 "careful, anyway. We don't know what it's made for."
 msgstr ""
-"Cela ressemble à ceux qu'on a trouvé dans les profondeurs de l'inconnu. "
+"Il ressemble à ceux qu'on a trouvés dans les profondeurs de l'inconnu. "
 "Attention, en tout cas. Nous ne savons pas à quoi il sert."
 
 #. [else]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:825
 msgid "Just be careful, alright?"
-msgstr "Faites juste attention, d'accord ?"
+msgstr "Faites bien attention, d'accord ?"
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:828
@@ -13429,7 +13557,8 @@ msgstr ""
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:832
 msgid "'Note: Only faeries can receive and use the spell from the glyph.'"
-msgstr "« Remarque : seules les fées peuvent utiliser les pouvoirs du glyphe. »"
+msgstr ""
+"« Remarque : seules les fées peuvent utiliser les pouvoirs du glyphe. »"
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:833
@@ -13483,7 +13612,6 @@ msgid "I'll be alright, calm down. You are too nervous."
 msgstr ""
 "Tout va aller pour le mieux. Du calme. Tu fais preuve de trop de nervosité."
 
-# "Pas nerveux" ou "pas nerveuse" ? -> donc "preuve de nervosité" :)
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/20_Under_the_Sands.cfg:841
 msgid "I am *not* nervous! Argh."
@@ -13573,7 +13701,7 @@ msgstr ""
 #: Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:310
 #: Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:321
 msgid "Defeat all enemy leaders... if you can"
-msgstr "Vaincre tous les chefs ennemis.. si vous pouvez."
+msgstr "Vaincre tous les chefs ennemis... si vous pouvez."
 
 #. [objectives]
 #: Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:320
@@ -13595,8 +13723,8 @@ msgid ""
 "Now it should be matter of getting inside and anihilating the emperor. Are "
 "we ready for this?"
 msgstr ""
-"Maintenant il serait bon d'entrer et d'exterminer l'empereur. Sommes nous "
-"prêts pour cela ?"
+"Maintenant ce serait bien d'entrer pour anninhiler l'empereur. Nous sommes "
+"prêts ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:335
@@ -13606,7 +13734,7 @@ msgstr "Tout à fait."
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:337
 msgid "Yeah! I'm ready!"
-msgstr "Ouaip, je suis prêt."
+msgstr "Ouaip, je suis prêt !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:338
@@ -13621,10 +13749,10 @@ msgid ""
 "either ended an era of dread and darkness with our hands, or as the day we "
 "gloriousfully tried to do so."
 msgstr ""
-"Allons-y, les amis. Puissions nous libérer ces terres de l'ombre du chaos ou "
-"périr dans cette tentative. Puissent nos descendants ce souvenir de ce jour "
-"comme celui où nous mîmes fin à une ère d'effroi et d'obscurité, ou comme "
-"celui où nous avons au moins essayé de le faire."
+"Allons-y, les amis. Puissions-nous libérer ces terres de l'ombre du chaos, "
+"ou périr dans cette tentative. Puissent nos descendants ce souvenir de ce "
+"jour comme celui où nous mîmes fin à une ère d'effroi et d'obscurité, ou "
+"comme celui où nous avons au moins essayé de le faire."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:340
@@ -13633,19 +13761,18 @@ msgid ""
 "shall protect your back with all might. Althurin, ready?"
 msgstr ""
 "Messieurs, madame, vous courez aussi vite que vous le pouvez vers la "
-"forteresse, vous vous y insinuez et nous protégeons vos arrières de toutes "
+"forteresse, vous vous y infiltrez et nous protégeons vos arrières de toutes "
 "nos forces. Althurin, prêt ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:341
 msgid "Aye. Today many skulls shall be crushed by my hammer."
-msgstr ""
-"Aperçu, aujourd'hui beaucoup de crânes seront fracassés par mon marteau."
+msgstr "Ouais. Aujourd'hui mon marteau fracassera beaucoup de crânes."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:342
 msgid "Then, the assault is on. Charge!"
-msgstr "D'accord l'assaut est donné. Chargez !"
+msgstr "D'accord, on commence l'assaut. Chargez !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/21_The_Heart.cfg:345
@@ -13745,6 +13872,8 @@ msgstr "Rien. Qui que ce soit, il se cache toujours."
 msgid ""
 "So close, yet so far... We will have to find a way to open these iron gates."
 msgstr ""
+"Si proche, mais si loin... Nous allons devoir trouver une façon d'ouvrir ces "
+"portes de fer."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:460
@@ -13752,6 +13881,8 @@ msgid ""
 "Oh, please, this is not grandma's house. Just blow them up or crush them "
 "down and we can continue,  a la antiqua."
 msgstr ""
+"Oh, voyons, ce n'est pas la maison de votre grand-mère. On n'a qu'à la "
+"pulvériser et on continue, comme au bon vieux temps."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:461
@@ -13771,6 +13902,8 @@ msgid ""
 "Oh... alright, but we can't go all together. Letting the weakest ones go "
 "with us could put us all in risk."
 msgstr ""
+"Oh... d'accord, mais nous ne pouvons pas tout faire en même temps. Emmener "
+"les plus faibles d'entre nous nous mettrait tous en péril."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:464
@@ -13778,6 +13911,8 @@ msgid ""
 "Choose your recruits and recalls carefully. They won't require income, but "
 "you should try to keep them alive for as long as possible"
 msgstr ""
+"Choisissez vos recrues avec précautions. Elle ne nécessiteront pas "
+"d'entretien, mais vous devrez les garder vivantes le plus longtemps possible."
 
 #. [event]: (description=Lédinor)}
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:527
@@ -13788,6 +13923,7 @@ msgstr "Mon dieu, Lédinor ! Mais... que font ces animaux avec vous ?!"
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:528
 msgid "He looks awfully weak and tortured. Come, this shall heal you."
 msgstr ""
+"Il a l'air atrocement faible et amoché. Tenez, cela devrait vous soigner."
 
 #. [event]: (description=Lédinor)}
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:537
@@ -13795,6 +13931,8 @@ msgid ""
 "Ah... thanks, I feel much better. I thought my life would slowly end in "
 "these dungeons; why did you come here? This is a dangerous place."
 msgstr ""
+"Ah... merci. Je me sens beaucoup mieux. Je pensais que j'allais dépérir dans "
+"ces donjons. Pourquoi êtes-vous venus ici ? Ce lieu est dangereux."
 
 #. [event]: (description=Lédinor)}
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:538
@@ -13951,14 +14089,14 @@ msgstr "Gardien des portes des enfers"
 #. [unit]: description=shaxthal1, type=Shaxthal Sentry Drone
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:923
 msgid "Hive Sentinel"
-msgstr "Sentinelle de l'essaim"
+msgstr "Sentinelle du rucher"
 
 #. [unit]: description=shaxthal2, type=Shaxthal Assault Drone
 #. [unit]: type=Shaxthal Protector Drone
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:931
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:938
 msgid "Hive Defender"
-msgstr "Défenseur de l'essaim"
+msgstr "Défenseur du rucher"
 
 #. [unit]: type=Shaxthal Runner Drone
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:945
@@ -14014,7 +14152,7 @@ msgstr ""
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1011
 msgid "Damned we are, is it that there is an unlimited source of enemy bosses?"
 msgstr ""
-"Nous sommes maudits, il n'y aurait pas un nombre illimité de chefs ennemis ?"
+"Nous sommes maudits, il n'y aurait pas un nombre illimité de chefs ennemis ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1012
@@ -14043,11 +14181,13 @@ msgid ""
 "This place must have been severily corrupted to cause this anomaly that "
 "connects our world with the demonic homeland."
 msgstr ""
+"Cet endroit doit avoir été bigrement corrompu pour provoquer cette anomalie "
+"qui connecte notre monde à celui des démons."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1056
 msgid "Can you close it?"
-msgstr ""
+msgstr "Et tu peux fermer ça ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1057
@@ -14069,6 +14209,8 @@ msgid ""
 "And? We can't explore the whole place now, we lack the necessary time for "
 "that."
 msgstr ""
+"Et ? Nous ne pouvons pas explorer tout l'endroit maintenant, nous n'avons "
+"pas le temps."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1078
@@ -14076,6 +14218,8 @@ msgid ""
 "Yes, but if it's a prisoner, it would be cruel on our part to leave them "
 "abandoned in these dungeons."
 msgstr ""
+"Oui, mais s'il est prisonnier, ce serait cruel de l'abandonner dans ces "
+"donjons."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22A_Innuendo.cfg:1079
@@ -14130,6 +14274,8 @@ msgid ""
 "This place stinks with the smell of death and decay. Something seriously "
 "evil goes on in this... warren? Hive? Thing?"
 msgstr ""
+"Cet endroit pue la mort et la décomposition. Quelque chose de vraiment "
+"maléfique vit dans ce... terrier ? Cette ruche ? Ce truc ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:266
@@ -14137,11 +14283,13 @@ msgid ""
 "Given that these creeps float and have poison in their jaws, I'd call it a "
 "hive."
 msgstr ""
+"Étant donné que ces bestioles volent et peuvent nous empoisonner, je dirais "
+"une ruche."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:267
 msgid "Look out! We have just come to be targets of a swarm of them!"
-msgstr ""
+msgstr "Regardez ! En voici une nué qui nous a pris pour cible !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:268
@@ -14159,11 +14307,15 @@ msgstr ""
 msgid ""
 "A presence... that presence... I felt it when we were escaping from Knalga."
 msgstr ""
+"Une présence... cette présence... Je l'ai déjà sentie alors que nous fuyions "
+"Knalga."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:271
 msgid "Could it be possibly related to whoever orchestrated that invasion?"
 msgstr ""
+"Serait-il possible qu'elle soit lié à celui ou celle qui a orchestré cette "
+"invasion ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:272
@@ -14173,7 +14325,7 @@ msgstr "Peut-être."
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:273
 msgid "If it is so, then he will feel my wrath for what he did to Anlindë."
-msgstr ""
+msgstr "Si c'est ainsi, il subira mon courroux pour ce qu'il a fait à Anlindë."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:274
@@ -14196,6 +14348,8 @@ msgid ""
 "Distract them, we must make some time before the Warlord arrives to finish "
 "them off!"
 msgstr ""
+"Distrayez-les, nous avons besoin d'un laps de temps avant que le seigneur de "
+"guerre n'arrive pour les achever !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:300
@@ -14208,11 +14362,14 @@ msgid ""
 "I have not the slightest idea of what they are ranting about, but for me it "
 "seems they are guarding that door..."
 msgstr ""
+"Je n'ai pas la moindre idée de ce qui les fait râler, mais on dirait qu'ils "
+"gardent la porte..."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:307
 msgid "Ha, obviously it's an important one. Get out of our path, vermins!"
 msgstr ""
+"Ah, de toute évidence, c'est important. Dégagez de notre passage, vermines !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:308
@@ -14324,6 +14481,8 @@ msgid ""
 "We need to put our hands together and concentrate. We will call upon the "
 "power of the Union."
 msgstr ""
+"Nous devons joindre nos mains ensemble et nous concentrer. Nous allons "
+"invoquer le pouvoir de l'Union."
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:416
@@ -14358,7 +14517,7 @@ msgstr "Très bien, alors..."
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:422
 msgid "Let's distract the Warlord in the mean time, then!"
-msgstr "Donc, distrayons le seigneur de guerre pendant ce temps !"
+msgstr "Donc, distrayons le seigneur de guerre pendant ce temps !"
 
 #. [objectives]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:426
@@ -14416,8 +14575,8 @@ msgid ""
 "The Halls of the Damned... the door behind, and the Dark Hive... follow the "
 "dark road, and you will find him, in a chamber plenty of his creations..."
 msgstr ""
-"La Salle des Damnés... la porte derrière, et l'Essaim Noir... suivez la "
-"route noire... et vous le trouverez, dans un endroit rempli de ses "
+"La Salle des Damnés... la porte derrière, et le Rucher des Ténèbres... "
+"suivez la route noire... et vous le trouverez, dans un endroit rempli de ses "
 "créations..."
 
 #. [then]
@@ -14454,6 +14613,8 @@ msgid ""
 "Distract the Warlord for two turns, during which Elynia and Mal Keshar will "
 "not be able to move or attack"
 msgstr ""
+"Distraire le seigneur de guerre pendant les 2 tours où Elynia et Mal Keshar "
+"ne pourront pas se déplacer ou attaquer"
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:604
@@ -14474,6 +14635,8 @@ msgstr "Non... Non ! Vous ne pouvez pas me vaincre ! Non !"
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:609
 msgid "Use the 'Union' attack of Elynia or Mal Keshar to vanquish the Warlord"
 msgstr ""
+"Utiliser l'attaque « Union » d'Elynia ou de Mal Keshar pour vaincre le "
+"seigneur de guerre"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:680
@@ -14499,6 +14662,9 @@ msgid ""
 "However, a cataclysm destroyed all our civilization and creations, except "
 "for a few of us who survived long enough to set a secret city underground."
 msgstr ""
+"Mais un cataclysme a détruit notre civilisation et ses créations, sauf pour "
+"une poignée d'entre nous qui a réussi à établir une cité secrète sous la "
+"surface."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/22B_Gauntlet.cfg:683
@@ -14640,7 +14806,7 @@ msgstr "Interim"
 #. [scenario]
 #: Invasion_from_the_Unknown/scenarios/23A_Interim.cfg:35
 msgid "The Dark Hive"
-msgstr "L'Essaim des ténèbres"
+msgstr "Le Rucher des Ténèbres"
 
 #. [scenario]
 #: Invasion_from_the_Unknown/scenarios/23A_Interim.cfg:36
@@ -14675,7 +14841,7 @@ msgstr ""
 msgid "This is it. The final gate. This is the way to go, if we are all ready!"
 msgstr ""
 "La voici. La dernière porte. C'est le moment d'y aller, si nous sommes "
-"prêts !"
+"prêts !"
 
 #. [event]: (description=Galas)}, (description=Elynia)}, (description=Mal Keshar)}
 #: Invasion_from_the_Unknown/scenarios/23A_Interim.cfg:630
@@ -14698,7 +14864,7 @@ msgid ""
 "Huh? We have no time to waste in hesitating our steps here. We have come "
 "this far, so it is now the time to finish our task."
 msgstr ""
-"Hé ? Nous n'avons pas le temps d'hésiter en chemin. Nous sommes venus de si "
+"Hé ? Nous n'avons pas le temps d'hésiter en chemin. Nous sommes venus de si "
 "loin qu'il nous faut maintenant terminer notre tâche."
 
 #. [objectives]
@@ -14977,12 +15143,16 @@ msgstr ""
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:115
 msgid "Indeed we did. Now it's down to you and us, cruel monster!"
 msgstr ""
+"Eh oui. Et maintenant, ça va se régler entre vous et moi, impitoyable "
+"monstre !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:117
 msgid ""
 "Ha. Face to face? Not really, since I can't control the hunger of my pets."
 msgstr ""
+"Ah. Face à face ? Pas vraiment, car je ne peux pas contrôler l'appétit de "
+"mes petits familiers."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:161
@@ -14992,14 +15162,14 @@ msgstr "Qui êtes-vous en vérité ? Révélez votre identité, mécréant."
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:162
 msgid "Elynia, has all this been enough for you to trust me now?"
-msgstr ""
+msgstr "Elynia, tout cela vous suffit pour me faire confiance, maintenant ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:163
 msgid "I don't know you, what do you mean? Why should I trust you?"
 msgstr ""
-"Je ne vous connais pas, à quoi pensez-vous ? Pourquoi vous ferais-je "
-"confiance ?"
+"Je ne vous connais pas, à quoi pensez-vous ? Pourquoi vous accorderais-je ma "
+"confiance ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:164
@@ -15020,6 +15190,8 @@ msgid ""
 "Don't listen to his filthy words, Elynia! He tries to deceive you, to trick "
 "you into doing his will!"
 msgstr ""
+"N'écoutez pas ces calomnies, Elynia ! Il essaye de vous tromper, pour vous "
+"pousser à obéir à sa volonté !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:167
@@ -15038,7 +15210,7 @@ msgstr "Non... Ce ne se peut..."
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:169
 msgid "Aye, it can be, dear."
-msgstr ""
+msgstr "Ouais, ça se peut, trésor."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:170
@@ -15213,7 +15385,7 @@ msgstr ""
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:390
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:454
 msgid "So, you, yourself, did this monstrousity to them?"
-msgstr ""
+msgstr "Donc, vous leur avez vous-même fait cette monstruosité ?"
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:391
@@ -15234,6 +15406,9 @@ msgid ""
 "hardly believe I spent so much time with you, not knowing what you'd become "
 "later!"
 msgstr ""
+"Non... tu es un monstre maintenant. Tu ne mérites pas mon amour. J'ai du mal "
+"à croire que j'ai passé tant de temps avec toi, sans me douter de ce que tu "
+"deviendrais plus tard !"
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:393
@@ -15305,12 +15480,14 @@ msgstr ""
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:447
 msgid "What's this? Watch out, drones emerge from his body with each hit!"
 msgstr ""
+"Qu'est-ce que c'est ? Regardez, des drones sortent de son corps à chaque "
+"coup !"
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:458
 msgid ""
 "I am being serious. Mal Keshar, let's finish with this once and for all!"
-msgstr ""
+msgstr "Je parle sérieusement. Mal Keshar, finissons-en une fois pour toute !"
 
 #. [then]
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:459
@@ -15323,6 +15500,8 @@ msgid ""
 "No, you shall never defeat me! I'm invincible! I am far superior to the "
 "power of the Union!"
 msgstr ""
+"Non, vous ne me battrez jamais ! Je suis invincible ! Je suis largement "
+"supérieur au pouvoir de l'Union !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:672
@@ -15335,6 +15514,8 @@ msgid ""
 "It seems that Argan's death has invalidated the power of the Union, and "
 "Elynia and Mal Keshar are back to normal."
 msgstr ""
+"On dirait que la mort d'Argan a annulé le pouvoir de l'Union, et qu'Elynia "
+"et Mal Keshar sont redevenus normaux."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/boss.cfg:674
@@ -15363,12 +15544,12 @@ msgstr ""
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:17
 msgid "Whatever. Attention everyone! Don't look upon their eyes!"
 msgstr ""
-"Qu'importe. Attention tout le monde ! Ne les regardez pas dans les yeux !"
+"Qu'importe. Attention tout le monde ! Ne les regardez pas dans les yeux !"
 
 #. [event]: (type=Cockatrice)}
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:18
 msgid "I think I can remove the effects of their magic with a spell."
-msgstr "Je pense pouvoir annuler l'effet de leur magie grâce à un sort."
+msgstr "Je pense pouvoir annuler leur magie grâce à un sort."
 
 #. [event]: (type=Cockatrice)}
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:19
@@ -15387,7 +15568,7 @@ msgstr "Trouver et détruire l'objet qui contient la magie des cocatris"
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:26
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:53
 msgid "Elynia is stoned by the Chimera or a Cockatrice"
-msgstr "Elynia est pétrifiée par la chimère or une cocatris"
+msgstr "Elynia est pétrifiée par la chimère ou une cocatris"
 
 #. [event]: (type=Chimera)}
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:42
@@ -15409,13 +15590,13 @@ msgid ""
 "How can it be... attention everyone! The power of these creatures seems to "
 "come from that abomination!"
 msgstr ""
-"Comment cela se peut-il... attention tout le monde ! Le pouvoir de ces "
-"horreurs semble provenir de cette abomination !"
+"Comment cela se peut-il... attention tout le monde ! Le pouvoir de ces "
+"horreurs semble provenir de cette abomination !"
 
 #. [event]: (type=Chimera)}
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:45
 msgid "Are you sure? No one has ever bound the stone to the living!"
-msgstr "Êtes-vous sûr ? Personne n'a jamais lié la pierre à la vie !"
+msgstr "Êtes-vous sûr ? Personne n'a jamais lié la pierre à la vie !"
 
 #. [event]: (type=Chimera)}
 #: Invasion_from_the_Unknown/scenarios/23B_Welcome_to_the_Lair/chimera_fight.cfg:46
@@ -15555,6 +15736,9 @@ msgid ""
 "Erm... come on, we must run as fast as possible to the exit! Let's not be "
 "distracted by any foes that might be roaming around!"
 msgstr ""
+"Erm... allez, nous devons courir aussi vite que possible vers la sortie ! Ne "
+"nous laissons pas distraire par les ennemis que nous pourrions voir tout "
+"autour !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/23C_Broken_Heart.cfg:242
@@ -15621,10 +15805,13 @@ msgstr "Épilogue"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/24_Epilogue.cfg:73
+#, fuzzy
 msgid ""
 "I understand that you want to travel with me, Mal Keshar. But, what about "
 "you Galas? What will you do?"
 msgstr ""
+"Je comprends que vous désiriez voyager avec moi, Mal Keshar, et vers aucune "
+"destination précise. Et vous, Galas ? Que ferez-vous ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/24_Epilogue.cfg:74
@@ -15657,6 +15844,8 @@ msgstr "Donc ?"
 #: Invasion_from_the_Unknown/scenarios/24_Epilogue.cfg:78
 msgid "Now I have no cause to serve. Would it be right if I travel with you?"
 msgstr ""
+"Je n'ai plus de cause à servir maintenant. Cela vous conviendrait si je "
+"voyageais avec vous ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/24_Epilogue.cfg:79
@@ -16149,8 +16338,8 @@ msgid ""
 "he was too old for living any longer, but I think I remember every detail of "
 "what he told me."
 msgstr ""
-"Eh bien, mon maître m'a raconté cela quelques mois à peine avant de mourir "
-"car il était trop vieux pour vivre plus longtemps mais je pense me souvenir "
+"Eh bien, mon maître m'a raconté cela quelques mois à peine avant de mourir, "
+"car il était trop vieux pour vivre plus longtemps. Mais je pense me souvenir "
 "de chaque détail de ce qu'il m'a dit."
 
 #. [event]
@@ -16322,7 +16511,7 @@ msgstr "Hum... mais ce sera très dangereux si ce que dit Althurin est vrai."
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/08x.cfg:182
 msgid "My king, I shall go with them, if you allow me to do so."
-msgstr "Mon roi, j'irai avec eux, si vous permettez de faire ainsi."
+msgstr "Mon roi, j'irai avec eux, si vous me le permettez."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/08x.cfg:183
@@ -16330,8 +16519,8 @@ msgid ""
 "Althurin, you are middle-aged, unlike your master when he risked his life. "
 "What motivates you to do that?"
 msgstr ""
-"Althurin, vous êtes entre deux âges, pas comme votre maître quand il "
-"risquait sa vie. Qu'est-ce qui vous motive à faire ceci ?"
+"Althurin, vous êtes encore jeune, pas comme votre maître quand il risquait "
+"sa vie. Qu'est-ce qui vous motive ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/08x.cfg:184
@@ -16341,11 +16530,10 @@ msgid ""
 "any to tell. I do not want to grow old, die, and have done nothing 'risky' "
 "like what my master did. I know it might sound foolish, but..."
 msgstr ""
-"je me sentirais désappointe et de décevrais moi-même si j'avais un apprenti "
-"qui ne pourrait raconter aucune de mes aventures parce que je n'en aurais eu "
-"aucune à lui raconter. Je ne veux pas vieillir, mourir et n'avoir rien fait "
-"de risqué dans ma vie comme mon maître l'avait fait. Je sais que je peux "
-"paraître fou mais..."
+"Je me sentirais triste et déçu si je ne pouvais raconter mes aventures à un "
+"futur apprenti. Je ne veux pas vieillir, puis mourir, sans avoir rien fait "
+"de risqué dans ma vie, comme mon maître l'avait fait. Je sais que cela peut "
+"paraitre fou..."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/08x.cfg:185
@@ -16356,21 +16544,20 @@ msgid ""
 "don't suffer the foul destiny that might have suffered any other adventurer "
 "that wandered there."
 msgstr ""
-"D'accord. Allez y. Soyez prudent et écoutez les conseils d'Althurin. Il "
-"s'est avéré être un forgeur de runes avisé. Je ne peux pas juger tout seul "
-"s'il est plus sage que son maître ou pas, mais je pense qu'il vous guidera "
-"pour que vous ne subissiez pas le destin tragique que pourrait avoir subi un "
-"autre aventurier qui aurait erré par là."
+"D'accord. Allez-y. Soyez prudents et écoutez les conseils d'Althurin. C'est "
+"un forgeur de runes avisé. Je ne peux pas juger seul s'il est plus sage que "
+"son maître ou pas, mais il vous guidera pour vous éviter le destin tragique "
+"que d'autres aventuriers pourraient avoir subi par là."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/08x.cfg:186
 msgid "Thanks, sir."
-msgstr "Merci Monsieur."
+msgstr "Merci, monsieur."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/08x.cfg:187
 msgid "This is going to be fun..."
-msgstr "C'est parti pour être amusant..."
+msgstr "C'est parti pour l'éclate..."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/08x.cfg:188
@@ -16389,7 +16576,7 @@ msgstr "Dehors"
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/12x.cfg:106
 msgid "We made it! And there are no signals of demons around."
-msgstr "Nous avons réussi ! Et il n'y a aucun signe de démons tout autour."
+msgstr "Nous avons réussi ! Et il n'y a aucune trace de démon aux alentours."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/12x.cfg:107
@@ -16397,6 +16584,9 @@ msgid ""
 "Ah, I can feel again the wind in my hair... it has been a really long time. "
 "It is a bit cold, but still nice, for being underground during centuries."
 msgstr ""
+"Ah, je retrouve le vent dans mes cheveux... ça faisait vraiment longtemps. "
+"Il fait un peu froid, mais c'est toujours plaisant, après avoir été enterré "
+"pendant des siècles."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/12x.cfg:108
@@ -16426,7 +16616,7 @@ msgstr ""
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/12x.cfg:111
 msgid "And so, they signaled the rest of the group to go out of the caverns."
-msgstr "Et donc, ils signalèrent la sortie des cavernes du reste du groupe."
+msgstr "Et donc, ils dirent au reste du groupe de sortir."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/12x.cfg:112
@@ -16446,7 +16636,7 @@ msgstr "Que votre âme repose en paix durant l'éternité, Anlindë."
 #: Invasion_from_the_Unknown/scenarios/cutscenes/14x_A.cfg:4
 #: Invasion_from_the_Unknown/scenarios/cutscenes/14x_B.cfg:4
 msgid "The Aragwaithi"
-msgstr "Aragwaithi"
+msgstr "Les aragwaithi"
 
 #. [side]: type=Aragwaith Ancient Banner, description=De'Arthian
 #: Invasion_from_the_Unknown/scenarios/cutscenes/16x.cfg:31
@@ -16656,6 +16846,9 @@ msgid ""
 "the last your kind was seen in this continent. Please, consider this as your "
 "home."
 msgstr ""
+"Elfes, bienvenus au Grand Conseil. Cela faisait vraiment longtemps que "
+"personne n'avait aperçu vos semblable sur ce continent. Je vous prie de "
+"considérer cet endroit comme votre demeure."
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/14x_B.cfg:139
@@ -16732,6 +16925,7 @@ msgstr ""
 msgid ""
 "Is it, then, that you want us to protect you? And what do we get in exchange?"
 msgstr ""
+"Et donc vous voulez que nous vous protégions ? Et qu'obtient-on en échange ?"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/14x_B.cfg:150
@@ -16889,9 +17083,9 @@ msgid ""
 "The orcs? But, they are just one step above the demons! We can't let those "
 "beasts have an opportunity to kill us when unwary!"
 msgstr ""
-"Les orcs ? Mais ils sont presque à mettre sur le même plan que les démons ! "
+"Les orcs ? Mais ils sont presque à mettre sur le même plan que les démons ! "
 "Nous ne pouvons pas laisser une occasion à ces animaux de nous massacrer "
-"alors que nous serions inattentifs !"
+"alors que nous serions inattentifs !"
 
 #. [event]
 #: Invasion_from_the_Unknown/scenarios/cutscenes/14x_B.cfg:173
@@ -18008,13 +18202,13 @@ msgid ""
 "explode with the sound of thunder. None know what strange beast lays such "
 "eggs."
 msgstr ""
-"Des nains ont fabriqué ces étranges machines qu'ils appellent « Ornithoptère "
-"». Capables de voler, elles ont besoin d'espace pour manœuvrer et donc ne "
-"peuvent pas être utilisées dans les cavernes. Les ornithoptères sont "
-"difficiles à piloter et ne sont pas adaptés au combat rapproché. À la place, "
-"leurs pilotes lancent des œufs étranges qu'ils appellent « grenades », et qui "
-"explosent dans un bruit de tonnerre. Personne ne sait quel étrange animal "
-"pond ces oeufs."
+"Des nains ont fabriqué ces étranges machines qu'ils appellent "
+"« Ornithoptère ». Capables de voler, elles ont besoin d'espace pour "
+"manœuvrer et donc ne peuvent pas être utilisées dans les cavernes. Les "
+"ornithoptères sont difficiles à piloter et ne sont pas adaptés au combat "
+"rapproché. À la place, leurs pilotes lancent des œufs étranges qu'ils "
+"appellent « grenades », et qui explosent dans un bruit de tonnerre. Personne "
+"ne sait quel étrange animal pond ces oeufs."
 
 #. [attack]: type=impact
 #: Invasion_from_the_Unknown/units/dwarves/Gyrocopter.cfg:38
@@ -18118,8 +18312,8 @@ msgid ""
 msgstr ""
 "Certains nains utilisent des véhicules étranges capables de se mouvoir "
 "rapidement sans cheval. On dit que ces grands véhicules à roue sont tirés "
-"par des génies de vapeur invisibles, c'est pourquoi on les appelle « "
-"Vaporouleurs »."
+"par des génies de vapeur invisibles, c'est pourquoi on les appelle "
+"« Vaporouleurs »."
 
 #. [unit]: race=dwarf
 #: Invasion_from_the_Unknown/units/dwarves/Thunderwheel.cfg:5
@@ -18163,12 +18357,12 @@ msgstr ""
 #. [female]
 #: Invasion_from_the_Unknown/units/elves-wood/Civilian.cfg:139
 msgid "female^Elvish Civilian"
-msgstr "Civile"
+msgstr "Civile elfe"
 
 #. [unit]: race=elf
 #: Invasion_from_the_Unknown/units/elves-wood/Horseman.cfg:7
 msgid "Elvish Horseman"
-msgstr "Chevalier"
+msgstr "Cavalier elfe"
 
 #. [unit]: race=elf
 #: Invasion_from_the_Unknown/units/elves-wood/Horseman.cfg:38
@@ -18180,7 +18374,7 @@ msgstr ""
 #. [unit]: race=elf
 #: Invasion_from_the_Unknown/units/elves-wood/Hunter.cfg:5
 msgid "Elvish Hunter"
-msgstr "Chasseur"
+msgstr "Chasseur elfe"
 
 #. [unit]: race=elf
 #: Invasion_from_the_Unknown/units/elves-wood/Hunter.cfg:31
@@ -18201,7 +18395,7 @@ msgstr "bolas"
 #. [female]
 #: Invasion_from_the_Unknown/units/elves-wood/Hunter.cfg:152
 msgid "female^Elvish Hunter"
-msgstr "Chasseresse"
+msgstr "Chasseresse elfe"
 
 #. [unit]: race=elf
 #: Invasion_from_the_Unknown/units/elves-wood/Protector.cfg:5
@@ -18221,7 +18415,7 @@ msgstr ""
 #. [unit]: race=elf
 #: Invasion_from_the_Unknown/units/elves-wood/Prowler.cfg:5
 msgid "Elvish Prowler"
-msgstr "Patrouilleur"
+msgstr "Patrouilleur elfe"
 
 #. [unit]: race=elf
 #: Invasion_from_the_Unknown/units/elves-wood/Prowler.cfg:37
@@ -18239,12 +18433,12 @@ msgstr ""
 #. [female]
 #: Invasion_from_the_Unknown/units/elves-wood/Prowler.cfg:130
 msgid "female^Elvish Prowler"
-msgstr "Patrouilleuse"
+msgstr "Patrouilleuse elfe"
 
 #. [unit]: race=elf
 #: Invasion_from_the_Unknown/units/elves-wood/Trapper.cfg:5
 msgid "Elvish Trapper"
-msgstr "Traqueur"
+msgstr "Traqueur elfe"
 
 #. [unit]: race=elf
 #: Invasion_from_the_Unknown/units/elves-wood/Trapper.cfg:33
@@ -18258,17 +18452,17 @@ msgstr ""
 #. [female]
 #: Invasion_from_the_Unknown/units/elves-wood/Trapper.cfg:126
 msgid "female^Elvish Trapper"
-msgstr "Traqueuse"
+msgstr "Traqueuse elfe"
 
 #. [race]
 #: Invasion_from_the_Unknown/units/faeries.cfg:5
 msgid "race^Faerie"
-msgstr ""
+msgstr "Peuple des fées"
 
 #. [race]
 #: Invasion_from_the_Unknown/units/faeries.cfg:6
 msgid "race+male^Faerie"
-msgstr ""
+msgstr "Farfadet"
 
 #. [race]
 #: Invasion_from_the_Unknown/units/faeries.cfg:7
@@ -19082,7 +19276,6 @@ msgstr "Envahisseur du chaos"
 
 #. [unit]: race=human
 #: Invasion_from_the_Unknown/units/humans/Chaos_Invader.cfg:28
-#, fuzzy
 msgid ""
 "Chaos warriors share the common belief that any government and any god is "
 "corrupt by default, even before being recruited. This is exactly what their "
@@ -19091,9 +19284,10 @@ msgid ""
 "suger coat their reign and let their men face the harsh truth."
 msgstr ""
 "Les guerriers du chaos partagent la conviction que tout gouvernement et tout "
-"dieu sont par essence corrompus. Cette pensée les mène à exécuter les ordres "
-"de seigneurs du chaos qui ne cherchent pas à masquer la vraie nature de leur "
-"règne et laissent leurs hommes affronter la dure réalité."
+"dieu sont par essence corrompus. Les seigneurs du chaos, qui recherchent ce "
+"type de personnes, les persuadent facilement de les rejoindre pour accomplir "
+"leurs désirs sans chercher à masquer la vraie nature de leur règne et en "
+"laissant leurs hommes affronter la dure réalité."
 
 #. [unit]: race=human
 #: Invasion_from_the_Unknown/units/humans/Chaos_Invoker.cfg:5
@@ -19233,16 +19427,14 @@ msgstr "Garde urbain"
 
 #. [unit]: race=human
 #: Invasion_from_the_Unknown/units/humans/Loyalist_City_Guard.cfg:20
-#, fuzzy
 msgid ""
 "City guards usually just police their cities and guard the walls. Having "
 "only a spear and some basic training, they are not prepared for direct "
 "combat with experienced units."
 msgstr ""
-"Les gardes urbains assurent généralement la police de leur ville et la garde "
-"de ses murs. Armés seulement d'une lance et ne possédant qu'une entraînement "
-"de base, ils ne sont pas préparés au combat direct face à des troupes "
-"expérimentées."
+"Les gardes urbains font généralement la police dans leur ville et gardent "
+"ses murs. Armés seulement d'une lance et ne possédant qu'un entraînement de "
+"base, ils ne sont pas préparés au combat contre des troupes expérimentées."
 
 #. [unit]: race=human
 #: Invasion_from_the_Unknown/units/humans/Loyalist_Commander.cfg:5
@@ -19996,8 +20188,8 @@ msgid ""
 "before them. Any skill gained through battle only builds on what nature has "
 "already granted them."
 msgstr ""
-"Les orcs doués pour manier une hache de bataille sont surnommés « porte-hache "
-"» par leurs compatriotes. Ignorant tout effet de style, ils utilisent "
+"Les orcs doués pour manier une hache de bataille sont surnommés « porte-"
+"hache » par leurs compatriotes. Ignorant tout effet de style, ils utilisent "
 "bêtement leur force brute pour combattre, découpant tout ce qui se trouve "
 "sur leur passage. Ce qu'ils peuvent apprendre durant les batailles ne fait "
 "que renforcer ce que la nature leur a déjà donné."
@@ -20023,13 +20215,13 @@ msgid ""
 "steppe orcs whisper that this is because their hearts pump not blood, but "
 "ice."
 msgstr ""
-"Un berger compétent peut devenir un « gardien du blizzard », comme "
+"Un berger compétent peut devenir un « gardien du blizzard », comme "
 "l'appellent les orcs des steppes. Cela représente l'élite de l'Ordre du "
 "Blizzard. Avec l'âge et avec l'expérience du contrôle des magies "
 "élémentales, certains disent qu'ils peuvent invoquer un furieux blizzard "
 "même dans un ciel dégagé ; ce fait improbable n'a jamais pu être confirmé "
 "par un étranger. Quand on les interroge sur l'origine de leurs pouvoirs, les "
-"gardiens répondent souvent en se désignant comme « guides ». Mais l'élément "
+"gardiens répondent souvent en se désignant comme « guides ». Mais l'élément "
 "qu'ils canalisent n'est jamais dévoilé.\n"
 "\n"
 "Les membres de la tribu prétendent apercevoir une nuance bleutée dans leur "
@@ -20093,7 +20285,7 @@ msgstr ""
 "Elle fonda l'Ordre du Blizzard, sélectionnant chaque année un enfant de la "
 "tribu pour pouvoir l'entraîner. Cet enseignement, quel qu'il fût, leur "
 "conférait un pouvoir mystérieux sur les éléments de leur habitat. Les "
-"bergers nomment cette influence « fusion ». L'Ordre fut progressivement "
+"bergers nomment cette influence « fusion ». L'Ordre fut progressivement "
 "accepté par le clan.\n"
 "\n"
 "L'enfant refusa de révéler ce qui s'était passé dans cette mare glacée et "
@@ -21119,7 +21311,7 @@ msgid ""
 msgstr ""
 
 #~ msgid "Graphics from Era of Myths"
-#~ msgstr "Graphismes tirés de « l'ère des mythes »"
+#~ msgstr "Graphismes tirés de « l'Ère des mythes »"
 
 #~ msgid "Graphics from Under the Burning Suns"
 #~ msgstr "Graphismes tirés de « Sous les soleils brûlants »"
@@ -21135,6 +21327,15 @@ msgstr ""
 
 #~ msgid "Do you want this unit to pick up the armor?"
 #~ msgstr "Voulez-vous que cette unité prenne l'armure ?"
+
+#~ msgid ""
+#~ "The hidden path we chose was uncannily unguarded, albeit the rumored "
+#~ "Empire was even closer of us. This had exposed us, but yet there were no "
+#~ "signals that the loyalists could be awaiting us."
+#~ msgstr ""
+#~ "Le passage dérobé que nous avions choisi n'était curieusement pas gardé, "
+#~ "malgré la proximité du soi-disant empire. Cela nous aurait exposé, mais "
+#~ "aucun signe n'indiquait que les loyalistes nous attendaient."
 
 #~ msgid ""
 #~ "When dawn broke, we immediately prepared for our journey in orcish "
@@ -21205,6 +21406,13 @@ msgstr ""
 
 #~ msgid "Of course we shall do!"
 #~ msgstr "Bien sûr que nous le ferons !"
+
+#~ msgid ""
+#~ "I suppose we can explore for a while, but don't go too further down the "
+#~ "caves, for we don't know where they lead to."
+#~ msgstr ""
+#~ "Je crois qu'on peut l'examiner pendant un certain temps, mais pas la "
+#~ "peine d'y pénétrer trop profondément : on ne sais pas où cela mène."
 
 #~ msgid ""
 #~ "It was about a supposed rockfall from the skies that happened a millenium "
@@ -21502,6 +21710,13 @@ msgstr ""
 #~ "pourrait expliquer pourquoi nous sommes tombés sur eux."
 
 #~ msgid ""
+#~ "Of course, they protect Wesmere. But why? Is there anything important in "
+#~ "there?"
+#~ msgstr ""
+#~ "Bien sûr, ils protègent Wesmere. Mais pourquoi ? Il y a quelque chose "
+#~ "d'important là-bas ?"
+
+#~ msgid ""
 #~ "What happens, Galas? Are you hesitating? Kill them, kill your enemies. "
 #~ "Feel the pleasure of their blood in your hands."
 #~ msgstr ""
@@ -21541,7 +21756,7 @@ msgstr ""
 #~ "Note: only three of your heroes will be available until you make it to "
 #~ "the Lair of the Shadow Master."
 #~ msgstr ""
-#~ "Remarque : seuls trois de vos héros seront disponibles jusqu'à ce que "
+#~ "Remarque : seuls trois de vos héros seront disponibles jusqu'à ce que "
 #~ "vous arriviez au repaire du Maître de l'Ombre"
 
 #~ msgid "(sighs) Fair enough, let's move."
