@@ -1,0 +1,21 @@
+detected svn checkout
+Creating fake root at /tmp/Invasion_from_the_Unknown-1.9.3.fakeroot.dir/...
+Exporting subversion checkout...
+Export complete.
+Found a custom publish ignore list (_server.ign) to append to the defaults
+Removing private/ignored files from package... rm: cannot remove directory `./'
+rm: cannot remove directory `../'
+rm: cannot remove directory `.'
+rm: cannot remove directory `..'
+complete!
+Writing package tag...
+Producing .tar.bz2 package...
+*****************************************************************************************
+Summary of /home/shadowm/wesnoth-UMC/Invasion_from_the_Unknown/Invasion_from_the_Unknown-1.9.3.tar.bz2
+MD5 sum : 01f7bc3a3fece85dc7f8d964a9ae2f38
+SHA1 sum: de349847c480204d314470bcbc1b896b44ad0af6
+*****************************************************************************************
+
+Removing temporary files...
+/tmp/Invasion_from_the_Unknown-1.9.3.fakeroot.dir/Invasion_from_the_Unknown
+Complete.
